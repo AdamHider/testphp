@@ -7,3 +7,4 @@ $petya=[
 
 $vasya=new stdClass();
 $vasya->m=5;
+ asdasdd
