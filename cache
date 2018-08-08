@@ -1,0 +1,1626 @@
+<!doctype html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-rim-auto-match" content="none">
+	<meta name="yandex-verification" content="4b53e3cb0fec015a" />
+	<meta name="google-site-verification" content="Kk4mmf42jRZPv9irvanzmiI9lb1VM8C6C48izDegqps" />
+    <title>РНКБ Банк (ПАО)</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/local/templates/rncb/favicon.ico"/>
+
+    <link href="/local/common/js/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet"/>
+    <link href="/local/templates/rncb/css/bootstrap.rncb.css" type="text/css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="/local/templates/rncb/css/jqx.css">
+    <!--    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!--    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+
+    <script src="/local/common/js/jquery/jquery.mobile.custom.min.js"></script>
+    <script src="/local/common/js/jquery/jqwidgets/jqxcore.js?ver=572"></script>
+    <script src="/local/common/js/jquery/jqwidgets/jqxnumberinput.js"></script>
+    <script src="/local/common/js/bootstrap/js/bootstrap.js"></script>
+    <script src="/local/common/js/jquery/jquery.maskedinput.js"></script>
+    <script src="/local/common/js/jquery/inputt.js?ver=1528119691"></script>
+    <script src="/local/templates/rncb/js/script.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="РНКБ Банк (ПАО), банк, вклады, кредиты, ипотека" />
+<meta name="description" content="Наш Банк - это современный высокотехнологичный банк,сочетающий в себе новейшие технологии оказания услуг и лучшие традиции банковского сообщества и российского предпринимательства." />
+<script type="text/javascript" data-skip-moving="true">(function(w, d) {var v = w.frameCacheVars = {'CACHE_MODE':'HTMLCACHE','storageBlocks':[],'dynamicBlocks':{'LkGdQn':'3969e9e4eca7','XEVOpk':'3969e9e4eca7','g8taYv':'f24d81e42915','rIpOz9':'ed955d7e5cd8','NMQc3w':'1165ef0b65a5','mKUqxK':'eef893732cb8','pcRiyT':'35c0d3de08fb'},'AUTO_UPDATE':true,'AUTO_UPDATE_TTL':'120'};var inv = false;if (v.AUTO_UPDATE === false){if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0){var lm = Date.parse(d.lastModified);if (!isNaN(lm)){var td = new Date().getTime();if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td){w.frameRequestStart = false;w.preventAutoUpdate = true;return;}inv = true;}}else{w.frameRequestStart = false;w.preventAutoUpdate = true;return;}}var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);if (!r) { return; }w.frameRequestStart = true;var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime();var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");var u = l.protocol + "//" + l.host + l.pathname + q;r.open("GET", u, true);r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");r.setRequestHeader("BX-CACHE-MODE", m);r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : "");if (inv){r.setRequestHeader("BX-INVALIDATE-CACHE", "Y");}try { r.setRequestHeader("BX-REF", d.referrer || "");} catch(e) {}if (m === "APPCACHE"){r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");}r.onreadystatechange = function() {if (r.readyState != 4) { return; }var a = r.getResponseHeader("BX-RAND");var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)){var f = {error:true, reason:a!=x?"bad_rand":"bad_status", url:u, xhr:r, status:r.status};if (w.BX && w.BX.ready){BX.ready(function() {setTimeout(function(){BX.onCustomEvent("onFrameDataRequestFail", [f]);}, 0);});}else{w.frameRequestFail = f;}return;}if (b){b.onFrameDataReceived(r.responseText);if (!w.frameUpdateInvoked){b.update(false);}w.frameUpdateInvoked = true;}else{w.frameDataString = r.responseText;}};r.send();})(window, document);</script>
+
+
+<link href="/bitrix/cache/css/s1/rncb/kernel_main/kernel_main.css?153007191128845" type="text/css" rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/rncb/page_87d19efe689215f094ef3654dcf269fa/page_87d19efe689215f094ef3654dcf269fa.css?15330230176756" type="text/css" rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/rncb/template_0a4075111e7cd332fcea48baca54a831/template_0a4075111e7cd332fcea48baca54a831.css?153355871332968" type="text/css" data-template-style="true" rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/'});</script>
+
+
+<script type="text/javascript"  src="/bitrix/cache/js/s1/rncb/kernel_main/kernel_main.js?1530071911307784"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_db.min.js?153006992710247"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?152298600511189"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js','/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/json/json2.min.js','/bitrix/js/main/core/core_ls.js','/bitrix/js/main/core/core_fx.js','/bitrix/js/main/session.js','/bitrix/js/main/core/core_window.js','/bitrix/js/main/core/core_popup.js','/bitrix/js/main/core/core_date.js','/bitrix/js/main/utils.js','/local/templates/rncb/components/bitrix/news.list/stavki-index2/script.js','/local/templates/rncb/components/bitrix/news.list/news_index/script.js','/local/templates/rncb/components/bitrix/menu/top_menu/script.js','/bitrix/components/bitrix/search.title/script.js','/bitrix/components/bitrix/catalog.tabs/templates/.default/script.js']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/core/css/core_popup.css','/bitrix/js/main/core/css/core_date.css','/local/templates/rncb/components/bitrix/news.list/slider-home/style.css','/local/templates/rncb/components/bitrix/news.list/stavki-index2/style.css','/local/templates/rncb/components/bitrix/news.list/banner-index-2/style.css','/local/templates/rncb/components/bitrix/news.list/stavki-index/style.css','/local/templates/rncb/components/bitrix/news.list/news_index/style.css','/local/templates/rncb/components/bitrix/menu/top_menu/style.css','/bitrix/components/bitrix/search.title/templates/.default/style.css','/local/templates/rncb/components/bitrix/menu/foot_menu/style.css','/bitrix/components/bitrix/catalog.tabs/templates/.default/style.css','/local/templates/rncb/styles.css','/local/templates/rncb/template_styles.css']); </script>
+<script type="text/javascript">
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+
+
+
+<script type="text/javascript"  src="/bitrix/cache/js/s1/rncb/template_41edc7e0fb5dde3bd4c3eabdc4ca2306/template_41edc7e0fb5dde3bd4c3eabdc4ca2306.js?15300893459515"></script>
+<script type="text/javascript"  src="/bitrix/cache/js/s1/rncb/page_ff59ffbadc93114990f0bea1ce6fbd93/page_ff59ffbadc93114990f0bea1ce6fbd93.js?15278370961593"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "d3b1649ddfe2f48f3619b596ae3088d4"]); _ba.push(["host", "www.rncb.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+	<script>
+		$(document).ready(function(){
+			// = Вешаем событие прокрутки к нужному месту
+			//   на все ссылки якорь которых начинается на #
+/*			$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+				e.preventDefault();
+
+				var target = this.hash,
+				$target = $(target);
+
+				$('html, body').stop().animate({
+					'scrollTop': $target.offset().top-($('header.navbar-fixed-top').height()+ 10)  
+				}, 900, 'swing', function () {
+					window.location.hash = target;
+				});
+			});*/
+
+		});
+	</script>
+	<!-- START Tracking Pixel -->
+	<script type="text/javascript">
+		if (typeof __GetI === "undefined") {
+			__GetI = [];
+		}
+		(function () {
+			var p = {
+				type: "VIEW",
+				/* config START */
+				site_id: "3672",
+				/* config END */
+			};
+			__GetI.push(p);
+			var domain = (typeof __GetI_domain) == "undefined" ? "px.adhigh.net" : __GetI_domain;
+			var src = ('https:' == document.location.protocol ? 'https://' : 'http://') + domain + '/p.js';
+			var script = document.createElement( 'script' );
+			script.type = 'text/javascript';
+			script.src = src;
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(script, s);
+		})();
+	</script>
+	<!-- END Tracking Pixel -->
+	<!-- START VK Pixel Code -->
+	<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-217088-8DLFr';</script>
+	<!-- END VK Pixel Code -->
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+		document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+		fbq('init', '341000362774458');
+		fbq('track', "PageView");</script>
+		<noscript><img height="1" width="1" style="display:none"
+		src="https://www.facebook.com/tr?id=341000362774458&ev=PageView&noscript=1"
+		/></noscript>
+	<!-- End Facebook Pixel Code -->
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5MSHWBX');</script>
+	<!-- End Google Tag Manager -->
+	<!-- Тэг домашней страницы Criteo OneTag -->
+	<script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>
+	<script type="text/javascript">
+	window.criteo_q = window.criteo_q || [];
+	var deviceType = /iPad/.test(navigator.userAgent) ? "t" : /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : "d";
+	window.criteo_q.push(
+	 { event: "setAccount", account: 49340}, // Это значение остается неизменным
+	 { event: "setEmail", email: "79054025255fb1a26e4bc422aef54eb4" }, // Может быть пустой строкой 
+	 { event: "setSiteType", type: deviceType},
+	 { event: "viewHome"});
+	</script> 
+	<!-- Конец тэга домашней страницы Criteo OneTag -->
+</head>
+<body>
+	<!-- Rating@Mail.ru counter -->
+	<script type="text/javascript">
+	var _tmr = window._tmr || (window._tmr = []);
+	_tmr.push({id: "3010931", type: "pageView", start: (new Date()).getTime()});
+	(function (d, w, id) {
+	  if (d.getElementById(id)) return;
+	  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+	  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+	  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+	  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+	})(document, window, "topmailru-code");
+	</script><noscript><div>
+	<img src="//top-fwz1.mail.ru/counter?id=3010931;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
+	</div></noscript>
+	<!-- //Rating@Mail.ru counter -->
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MSHWBX"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+<noscript>
+    <div class="noscript">В вашем браузере отключен JavaScript, для корректного отображения включите его в настройках
+        браузера.
+    </div>
+</noscript>
+
+<div class="top-desktop-area"></div>
+<header class="navbar-fixed-top">
+	<!--<img class="hny star_left hidden-xs hidden-sm" src="/upload/assets/star_left.png" />
+	<img class="hny star_right hidden-xs hidden-sm" src="/upload/assets/star_right.png" />-->
+    <div class="container container_top_header">
+        <div class="logo">
+            <a href="http://www.rncb.ru/">
+				<img src="/local/templates/rncb/images/logo_new.png" />
+			</a>
+        </div>
+        <span class="top-scroll">
+        <div class="top-right">
+            <a href="/kontakty/">
+	<img width="16" src="/local/templates/rncb/images/point-head.png" alt="">
+</a>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
+<img width="16" src="/local/templates/rncb/images/call-head.png" class="top-tel-b" alt="">
+<span class="top-tel">8 800 234-27-27</span>
+<span class="hideButton" style="display: none;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+	<span class="red-button"> <a href="">Подать заявку</a> </span> </span>
+<script>
+$(document).ready(function(){
+	if($(".hideButton a").attr("href").length){
+		$(".hideButton").show();
+	}
+});
+</script><br>        </div>
+        </span>
+        <span class="top-noscroll">
+        <nav class="top-nav pull-right">
+            <ul class="topmenu">
+				<div id="bxdynamic_LkGdQn_start" style="display:none"></div>
+
+
+			<li><a href="/fizicheskkim-litsam/" >Физическим лицам</a></li>
+	
+			<li><a href="/yuridicheskim-litsam/" >Юридическим лицам</a></li>
+	
+			<li><a href="/private-banking/" >Private banking</a></li>
+	
+			<li><a href="/ofisy-i-bankomaty/" >Офисы и банкоматы</a></li>
+	
+			<li><a href="/otzyvy/" >Оставить отзыв</a></li>
+	
+
+
+<li class="hidden-xs hidden-sm"><a class="submenu-link">Интернет-банк <span class="caret"></span></a>
+	<ul class="submenu">
+		<li><a href="https://online.rncb.ru/web_banking/protected/welcome.jsf" target="_blanc">Физическим лицам</a></li>
+		<li class="sub_link_2"><a>Юридическим лицам <span class="caret"></span></a>
+			<ul class="submenu2">
+				<li><a href="https://ibank.rncb.ru/" target="_blanc">Система «IBank2»</a></li>
+				<li><a href="https://businessonlinetest.rncb.ru" target="_blanc">«РНКБ Online»</a></li>
+			</ul>
+		</li>
+	</ul>
+</li><div id="bxdynamic_LkGdQn_end" style="display:none"></div>			</ul>
+        </nav>
+
+            	<div id="title-search">
+	<form action="/search/index.php">
+		<input id="title-search-input" type="text" name="q" value="" size="40" maxlength="50" autocomplete="off" />&nbsp;<input name="s" type="submit" value="Поиск" />
+	</form>
+	</div>
+<script>
+	BX.ready(function(){
+		new JCTitleSearch({
+			'AJAX_PAGE' : '/',
+			'CONTAINER_ID': 'title-search',
+			'INPUT_ID': 'title-search-input',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+</script>
+            <div class="search"><img src="/local/templates/rncb/images/search.png" alt=""></div>
+        </span>
+    </div>
+</header>
+
+<div class="top-mobile-area"></div>
+<header class="top-mobile">
+    <div class="container">
+        
+        <div class="logo">
+            <a href="http://www.rncb.ru/">
+				<img src="/local/templates/rncb/images/logo_new.png" />
+			</a>
+        </div>
+		<div class="mobile_menu">
+            <img src="/local/templates/rncb/images/mmenu.png" alt="">
+        </div>
+        <div class="top-nav-back"></div>
+        <nav class="top-nav">
+            <div class="hhead">
+                <div class="logo-mob logo" style="float: left">
+                    <a href="http://www.rncb.ru/">
+				<img src="/local/templates/rncb_new_brand/images/logosvg.svg" />
+			</a>
+                </div>
+                <div class="mobile_menu_close">
+                    <img src="/local/templates/rncb/images/mclose.png" alt="">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+			<ul class="mobile_nav_link">
+            <div id="bxdynamic_XEVOpk_start" style="display:none"></div>
+
+
+			<li><a href="/fizicheskkim-litsam/" >Физическим лицам</a></li>
+	
+			<li><a href="/yuridicheskim-litsam/" >Юридическим лицам</a></li>
+	
+			<li><a href="/private-banking/" >Private banking</a></li>
+	
+			<li><a href="/ofisy-i-bankomaty/" >Офисы и банкоматы</a></li>
+	
+			<li><a href="/otzyvy/" >Оставить отзыв</a></li>
+	
+
+
+<li class="hidden-xs hidden-sm"><a class="submenu-link">Интернет-банк <span class="caret"></span></a>
+	<ul class="submenu">
+		<li><a href="https://online.rncb.ru/web_banking/protected/welcome.jsf" target="_blanc">Физическим лицам</a></li>
+		<li class="sub_link_2"><a>Юридическим лицам <span class="caret"></span></a>
+			<ul class="submenu2">
+				<li><a href="https://ibank.rncb.ru/" target="_blanc">Система «IBank2»</a></li>
+				<li><a href="https://businessonlinetest.rncb.ru" target="_blanc">«РНКБ Online»</a></li>
+			</ul>
+		</li>
+	</ul>
+</li><div id="bxdynamic_XEVOpk_end" style="display:none"></div>
+            <div style="display: none;">
+				<a class="hideButtonMobile" style="display: none;" href="">Подать заявку</a>
+<script>
+$(document).ready(function(){
+	if($(".hideButtonMobile").attr("href").length){
+		$(".hideButtonMobile").show();
+	}
+});
+</script>
+<!--<div class="dop-mob">-->
+    <a class="telem" href="/kontakty/"><img src="/local/templates/rncb/images/point-head.png" alt="" width="16"><span class="top-map">На карте</span></a>
+    <a class="telem" href="tel:+88002342727"><img src="/local/templates/rncb/images/call-head.png" alt="" width="16"><span class="top-map">8 800 234-27-27</span></a>
+<!--</div>-->
+			</div>
+
+            <div id="bxdynamic_g8taYv_start" style="display:none"></div>
+
+
+			<li><a href="/about" >О банке</a></li>
+	
+			<li><a href="/tarify/" >Тарифы</a></li>
+	
+			<li><a href="/kontakty/" >Контакты</a></li>
+	
+			<li><a href="/internet-bank-i-mobilnoe-prilozhenie-rnkb-24-7/" >Интернет-банк и мобильное приложение «РНКБ 24/7»</a></li>
+	
+			<li><a href="/realizatsiya-neprofilnykh-avktivov/" >Реализация непрофильных активов</a></li>
+	
+			<li><a href="/news/" >Новости</a></li>
+	
+			<li><a href="/rekvizity/" >Реквизиты</a></li>
+	
+
+
+<li class="hidden-xs hidden-sm"><a class="submenu-link">Интернет-банк <span class="caret"></span></a>
+	<ul class="submenu">
+		<li><a href="https://online.rncb.ru/web_banking/protected/welcome.jsf" target="_blanc">Физическим лицам</a></li>
+		<li class="sub_link_2"><a>Юридическим лицам <span class="caret"></span></a>
+			<ul class="submenu2">
+				<li><a href="https://ibank.rncb.ru/" target="_blanc">Система «IBank2»</a></li>
+				<li><a href="https://businessonlinetest.rncb.ru" target="_blanc">«РНКБ Online»</a></li>
+			</ul>
+		</li>
+	</ul>
+</li><div id="bxdynamic_g8taYv_end" style="display:none"></div>
+            <div id="bxdynamic_rIpOz9_start" style="display:none"></div>
+
+
+			<li><a href="/vakansii/" >Вакансии</a></li>
+	
+			<li><a href="/rncb-karera/" >РНКБ карьера</a></li>
+	
+			<li><a href="/bezopasnost/" >Безопасность</a></li>
+	
+			<li><a href="/aktsioneram-i-investoram/" >Акционерам и инвесторам</a></li>
+	
+			<li><a href="/raskrytie-informatsii-professionalnogo-uchastnika/" >Раскрытие информации  профессионального участника</a></li>
+	
+			<li><a href="/zakupki/" >Закупки</a></li>
+	
+			<li><a href="/vopros-otvet/" >Вопрос-ответ</a></li>
+	
+			<li><a href="/fizicheskkim-litsam/vklady-i-scheta/strakhovye-vyplaty/" >Страховые выплаты</a></li>
+	
+
+
+<li class="hidden-xs hidden-sm"><a class="submenu-link">Интернет-банк <span class="caret"></span></a>
+	<ul class="submenu">
+		<li><a href="https://online.rncb.ru/web_banking/protected/welcome.jsf" target="_blanc">Физическим лицам</a></li>
+		<li class="sub_link_2"><a>Юридическим лицам <span class="caret"></span></a>
+			<ul class="submenu2">
+				<li><a href="https://ibank.rncb.ru/" target="_blanc">Система «IBank2»</a></li>
+				<li><a href="https://businessonlinetest.rncb.ru" target="_blanc">«РНКБ Online»</a></li>
+			</ul>
+		</li>
+	</ul>
+</li><div id="bxdynamic_rIpOz9_end" style="display:none"></div>			</ul>
+        </nav>
+
+        <!--<a style="float: right" href="https://online.rncb.ru/scoring/" target="_blank"><img src="/local/templates/rncb/images/ibm.png" title=""></a>-->
+
+        	<div id="title-search">
+	<form action="/search/index.php">
+		<input id="title-search-input2" type="text" name="q" value="" size="40" maxlength="50" autocomplete="off" />&nbsp;<input name="s" type="submit" value="Поиск" />
+	</form>
+	</div>
+<script>
+	BX.ready(function(){
+		new JCTitleSearch({
+			'AJAX_PAGE' : '/',
+			'CONTAINER_ID': 'title-search',
+			'INPUT_ID': 'title-search-input2',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+</script>
+    </div>
+</header><div class="container"><div id="head-carousel" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+
+	<li data-target="#head-carousel" data-slide-to="0" class="active"></li>
+	<li data-target="#head-carousel" data-slide-to="1" ></li>
+	<li data-target="#head-carousel" data-slide-to="2" ></li>
+	<li data-target="#head-carousel" data-slide-to="3" ></li>
+	<li data-target="#head-carousel" data-slide-to="4" ></li>
+	<li data-target="#head-carousel" data-slide-to="5" ></li>
+	</ol>
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			
+			<div class="info">
+								<div class="button red"><a  target="_blank" href="https://super.mironline.ru/rncb/">Подробнее</a></div>
+			</div>
+			<a  target="_blank" href="https://super.mironline.ru/rncb/">
+				<img
+					class="preview_picture"
+					border="0"
+					src="/upload/iblock/495/shkoda.jpg"
+					alt="Шкода"
+					/>
+			</a>
+		</div>
+		<div class="item">
+			
+			<div class="info">
+								<div class="button red"><a  target="_blank" href="/yuridicheskim-litsam/kreditovanie-biznesa/kredity-malomu-biznesu/">Подробнее</a></div>
+			</div>
+			<a  target="_blank" href="/yuridicheskim-litsam/kreditovanie-biznesa/kredity-malomu-biznesu/">
+				<img
+					class="preview_picture"
+					border="0"
+					src="/upload/iblock/fb2/Kreditovanie_biznesa_new.png"
+					alt="Акция по кредитам малого бизнеса"
+					/>
+			</a>
+		</div>
+		<div class="item">
+			
+			<div class="info">
+								<div class="button red"><a  target="_blank" href="/fizicheskkim-litsam/kreditovanie/">Подробнее</a></div>
+			</div>
+			<a  target="_blank" href="/fizicheskkim-litsam/kreditovanie/">
+				<img
+					class="preview_picture"
+					border="0"
+					src="/upload/iblock/128/potreb_kredity_new.png"
+					alt="Кредит наличными"
+					/>
+			</a>
+		</div>
+		<div class="item">
+			
+			<div class="info">
+								<div class="button red"><a  target="_blank" href="/yuridicheskim-litsam/raschetno-kassovoe-obsluzhivanie/">Подробнее</a></div>
+			</div>
+			<a  target="_blank" href="/yuridicheskim-litsam/raschetno-kassovoe-obsluzhivanie/">
+				<img
+					class="preview_picture"
+					border="0"
+					src="/upload/iblock/4e8/r_k_obsluzhivanie_new.png"
+					alt="РКО"
+					/>
+			</a>
+		</div>
+		<div class="item">
+			
+			<div class="info">
+								<div class="button red"><a  target="_blank" href="/fizicheskkim-litsam/monety-iz-dragotsennykh-metallov/">Подробнее</a></div>
+			</div>
+			<a  target="_blank" href="/fizicheskkim-litsam/monety-iz-dragotsennykh-metallov/">
+				<img
+					class="preview_picture"
+					border="0"
+					src="/upload/iblock/b7e/monety_ikh_drag_metallov_1617kh590_002.jpg"
+					alt="Монеты из драгоценных металлов"
+					/>
+			</a>
+		</div>
+		<div class="item">
+			
+			<div class="info">
+								<div class="button red"><a  target="_blank" href="/yuridicheskim-litsam/raschetno-kassovoe-obsluzhivanie/korporativnye-karty/">Подробнее</a></div>
+			</div>
+			<a  target="_blank" href="/yuridicheskim-litsam/raschetno-kassovoe-obsluzhivanie/korporativnye-karty/">
+				<img
+					class="preview_picture"
+					border="0"
+					src="/upload/iblock/b8b/banner_korp_karty_new.png"
+					alt="Корпоративные карты"
+					/>
+			</a>
+		</div>
+	</div>
+
+	<a class="left carousel-control hidden-xs" href="#head-carousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><img src="/local/templates/rncb/images/main-slider/arrows-prew-icon.png" width="16px" height="24px"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control hidden-xs" href="#head-carousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><img src="/local/templates/rncb/images/main-slider/arrows-forward-icon.png" width="16px" height="24px"></span>
+		<span class="sr-only">Next</span>
+	</a>
+	<div class="clearfix" style="clear: both"></div>
+</div></div>
+<!--<div class="footbanner"></div>--><div class="container">
+	 <div class="container icos2 icoss">
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 stavki-i2" id="bx_651765591_12">
+		<div class="stav-cont">
+					<p style="text-align: center;">
+ <span class="b">
+	Ипотека</span><span class="kostyl"></span><br>
+	 ОТ <span class="bgree" style="color: rgb(0, 171, 200); font-size: 28pt;">6%</span>
+</p>						<div class="green-button">
+			<a href="/fizicheskkim-litsam/ipoteka/">Подробнее</a>
+		</div>
+		</div>
+				</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 stavki-i2" id="bx_651765591_13">
+		<div class="stav-cont">
+					<p style="text-align: center;">
+ <span class="b">Автокредиты</span><br>
+	 ОТ <span class="bgree" style="color: rgb(0, 171, 200); font-size: 28pt;">13%</span>
+</p>						<div class="green-button">
+			<a href="/fizicheskkim-litsam/avtokreditovanie/">Подробнее</a>
+		</div>
+		</div>
+				</div>
+	<div class="clearfix visible-xs" style="padding-bottom:30px"></div>						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 stavki-i2" id="bx_651765591_14">
+		<div class="stav-cont">
+					<p style="text-align: center;">
+ <span class="b">Кредитные карты</span><br>
+ <span class="bgree" style="color: rgb(0, 171, 200);">0%</span> <span style="font-size: 10pt;">ДО 55 ДНЕЙ</span>
+</p>						<div class="green-button">
+			<a href="/fizicheskkim-litsam/bankovskie-karty/kreditnaya-karta-standart/">Подробнее</a>
+		</div>
+		</div>
+				</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 stavki-i2" id="bx_651765591_15">
+		<div class="stav-cont">
+					<p style="text-align: center;">
+ <span class="b">Вклады</span><br>
+	 &nbsp; <span style="font-size: 10pt;">ДО&nbsp;</span><span class="bgree" style="color: rgb(0, 171, 200);">5,75%</span>
+</p>						<div class="green-button">
+			<a href="/fizicheskkim-litsam/vklady-i-scheta/">Подробнее</a>
+		</div>
+		</div>
+				</div>
+	
+</div></div>
+<div class="container">
+	                                                         <div class="" id="bx_1373509569_11">
+        <div class="banner-index">
+            <img
+                class="preview_picture"
+                border="0"
+                src="/upload/iblock/f46/981_233.png"
+                width="981"
+                height="233"
+                alt="Интернет-банк"
+                title="Интернет-банк"
+                style="float:left"
+            />
+
+            <div class="info">
+                <h3>РНКБ 24/7</h3>
+                <br/>
+                Наше мобильное приложение уже скачали :
+                <div class="count">
+                                            <span class="count_i">1</span>
+                                            <span class="count_i">9</span>
+                                            <span class="count_i">2</span>
+                                            <span class="count_i">2</span>
+                                            <span class="count_i">8</span>
+                                            <span class="count_i">8</span>
+                                        </div>
+                <div class="button"><a href='/internet-bank-i-mobilnoe-prilozhenie-rnkb-24-7/'>Подробнее</a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+&nbsp;<br>
+</div>
+</div>
+ <div class="container icos">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 stavki-i" id="bx_3485106786_3938">
+					<p style="text-align: center;">
+ <img width="90" alt="4.png" src="/upload/medialibrary/dostijeniya/4.png" height="90"><br>
+</p>
+<p style="text-align: center;">
+ <br>
+</p>
+<p style="text-align: center;">
+ <a href="/informatsiya-o-banke-aktsionerakh/"> </a><span style="font-size: 14pt;"><a href="/informatsiya-o-banke-aktsionerakh/">Банк со 100% государственным&nbsp;участием</a></span>
+</p>						</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 stavki-i" id="bx_3485106786_3939">
+					<p style="text-align: center;">
+ <img width="90" alt="6.png" src=" /upload/medialibrary/dostijeniya/6.png" height="90"><br>
+</p>
+<p style="text-align: center;">
+ <br>
+</p>
+<p style="text-align: center;">
+ <span style="font-size: 14pt;"><a href="/about/reyting/">Наши рейтинги</a></span>
+</p>						</div>
+	<div class="clearfix visible-xs"></div>			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 stavki-i" id="bx_3485106786_3940">
+					<p style="text-align: center;">
+ <img width="90" alt="ss1.png" src="/upload/medialibrary/dostijeniya/5.png" height="90">
+</p>
+<p style="text-align: center;">
+ <br>
+</p>
+ <a href="/fizicheskkim-litsam/vklady-i-scheta/"> </a><a href="/fizicheskkim-litsam/vklady-i-scheta/"> </a><a href="/fizicheskkim-litsam/vklady-i-scheta/"> </a>
+<p align="center">
+ <a href="/fizicheskkim-litsam/vklady-i-scheta/" title="Ссылка: /fizicheskkim-litsam/vklady-i-scheta/">Клиенты нам доверяют</a>
+</p>						</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 stavki-i" id="bx_3485106786_3941">
+					<p style="text-align: center;">
+ <img width="90" alt="3.png" src="/upload/medialibrary/dostijeniya/3.png" height="90"><br>
+</p>
+<p style="text-align: center;">
+ <br>
+</p>
+<p style="text-align: center;">
+ <span style="font-size: 14pt;"><a href="/yuridicheskim-litsam/kreditovanie-biznesa/">Мы финансируем развитие&nbsp;Крыма</a></span>
+</p><br>						</div>
+	
+</div><div class="container">
+	 <div class="news-index">
+    <div class="container">
+        <span class="title-pod">Новости банка</span>
+        
+
+        <div id="NEWS-CAROUSEL" class="carousel slide visible-sm visible-md visible-lg" data-ride="carousel"
+             data-interval="false">
+
+            <div class="carousel-inner swipe" role="listbox">
+                                                         <div class="item active">                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                        style="float:left;padding-left:0px;margin-left:-5px;">
+                        <div class="news-item" id="bx_3099439860_4573">
+
+                            <div class="preview"><img
+                                    class="preview_picture"
+                                    border="0"
+								src="/upload/iblock/efe/news_02_08_2018.png"
+                                    width="350"
+                                    height="200"
+                                    alt="Жители Республики Крым и г. Севастополя потратили за месяц 1 млрд рублей по кредитным картам РНКБ"
+                                    title="Жители Республики Крым и г. Севастополя потратили за месяц 1 млрд рублей по кредитным картам РНКБ"								
+                                />
+
+                                                                    <div class="news-date-time">
+                                        <div class="time">02.08.18</div>
+                                    </div>
+                                                            </div>
+                            <div class="clearfix"></div>
+                            <div class="title">
+                                <b><a href="/news/4573/">Жители Республики Крым и г. Севастополя потратили за месяц 1 млрд рублей по кредитным картам РНКБ</a></b>
+                                <br/>
+                            </div>
+
+                                                            РНКБ Банк публикует статистические данные: среднемесячный оборот по кредитным картам «Мир» составил порядка 1 млрд. рублей, при этом прирост портфеля по кредитным картам во втором квартале 2018 года с...                                                    </div>
+                    </div>
+
+                    
+                                                                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                        >
+                        <div class="news-item" id="bx_3099439860_4572">
+
+                            <div class="preview"><img
+                                    class="preview_picture"
+                                    border="0"
+								src="/upload/iblock/6e0/news_30_07_2018_2.png"
+                                    width="350"
+                                    height="200"
+                                    alt="РНКБ Банк (ПАО) усовершенствовал продукт «Экспресс-гарантия» для юридических лиц"
+                                    title="РНКБ Банк (ПАО) усовершенствовал продукт «Экспресс-гарантия» для юридических лиц"								
+                                />
+
+                                                                    <div class="news-date-time">
+                                        <div class="time">30.07.18</div>
+                                    </div>
+                                                            </div>
+                            <div class="clearfix"></div>
+                            <div class="title">
+                                <b><a href="/news/4572/">РНКБ Банк (ПАО) усовершенствовал продукт «Экспресс-гарантия» для юридических лиц</a></b>
+                                <br/>
+                            </div>
+
+                                                            РНКБ изменил условия продукта «Экспресс-гарантия» для юридических лиц и&nbsp;&nbsp;индивидуальных предпринимателей....                                                    </div>
+                    </div>
+
+                    
+                                                                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                        style="float:right;padding-right:0px;margin-right:-5px;">
+                        <div class="news-item" id="bx_3099439860_4571">
+
+                            <div class="preview"><img
+                                    class="preview_picture"
+                                    border="0"
+								src="/upload/iblock/717/news_30_07_2018.png"
+                                    width="350"
+                                    height="200"
+                                    alt="РНКБ Банк (ПАО) выпустил памятную монету с изображением нового терминала аэропорта «Симферополь»"
+                                    title="РНКБ Банк (ПАО) выпустил памятную монету с изображением нового терминала аэропорта «Симферополь»"								
+                                />
+
+                                                                    <div class="news-date-time">
+                                        <div class="time">30.07.18</div>
+                                    </div>
+                                                            </div>
+                            <div class="clearfix"></div>
+                            <div class="title">
+                                <b><a href="/news/4571/">РНКБ Банк (ПАО) выпустил памятную монету с изображением нового терминала аэропорта «Симферополь»</a></b>
+                                <br/>
+                            </div>
+
+                                                            РНКБ Банк представляет памятную монету «Международный аэропорт «Симферополь» из серебра 999 пробы....                                                    </div>
+                    </div>
+
+                     </div> 
+                                                             <div class="item">                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                        style="float:left;padding-left:0px;margin-left:-5px;">
+                        <div class="news-item" id="bx_3099439860_4552">
+
+                            <div class="preview"><img
+                                    class="preview_picture"
+                                    border="0"
+								src="/upload/iblock/b63/news_26_07_2018.jpg"
+                                    width="350"
+                                    height="200"
+                                    alt="РНКБ увеличил финансирование крупнейшего поставщика топлива в Крым на 200 миллионов рублей"
+                                    title="РНКБ увеличил финансирование крупнейшего поставщика топлива в Крым на 200 миллионов рублей"								
+                                />
+
+                                                                    <div class="news-date-time">
+                                        <div class="time">26.07.18</div>
+                                    </div>
+                                                            </div>
+                            <div class="clearfix"></div>
+                            <div class="title">
+                                <b><a href="/news/4552/">РНКБ увеличил финансирование крупнейшего поставщика топлива в Крым на 200 миллионов рублей</a></b>
+                                <br/>
+                            </div>
+
+                                                            РНКБ Банк &#40;ПАО&#41; предоставил финансирование одному из крупнейших поставщиков топлива в Крым – ОАО «Солид – товарные рынки» на сумму 200 млн руб....                                                    </div>
+                    </div>
+
+                    
+                                                                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                        >
+                        <div class="news-item" id="bx_3099439860_4551">
+
+                            <div class="preview"><img
+                                    class="preview_picture"
+                                    border="0"
+								src="/upload/iblock/826/news_25_07_2018.jpg"
+                                    width="350"
+                                    height="200"
+                                    alt="РНКБ Банк продлил операционный день для юридических лиц и предпринимателей"
+                                    title="РНКБ Банк продлил операционный день для юридических лиц и предпринимателей"								
+                                />
+
+                                                                    <div class="news-date-time">
+                                        <div class="time">25.07.18</div>
+                                    </div>
+                                                            </div>
+                            <div class="clearfix"></div>
+                            <div class="title">
+                                <b><a href="/news/4551/">РНКБ Банк продлил операционный день для юридических лиц и предпринимателей</a></b>
+                                <br/>
+                            </div>
+
+                                                            В РНКБ Банк &#40;ПАО&#41; продолжительность продленного операционного дня для юридических лиц и индивидуальных предпринимателей была увеличена на 2 часа....                                                    </div>
+                    </div>
+
+                    
+                                                                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                        style="float:right;padding-right:0px;margin-right:-5px;">
+                        <div class="news-item" id="bx_3099439860_4536">
+
+                            <div class="preview"><img
+                                    class="preview_picture"
+                                    border="0"
+								src="/upload/iblock/0ed/news_24_07_2018.jpg"
+                                    width="350"
+                                    height="200"
+                                    alt="Объемы выдач кредитов для предпринимателей в РНКБ выросли в три раза"
+                                    title="Объемы выдач кредитов для предпринимателей в РНКБ выросли в три раза"								
+                                />
+
+                                                                    <div class="news-date-time">
+                                        <div class="time">23.07.18</div>
+                                    </div>
+                                                            </div>
+                            <div class="clearfix"></div>
+                            <div class="title">
+                                <b><a href="/news/4536/">Объемы выдач кредитов для предпринимателей в РНКБ выросли в три раза</a></b>
+                                <br/>
+                            </div>
+
+                                                            В первом полугодии 2018г. РНКБ Банк &#40;ПАО&#41; предоставил более 1,5 тысяч кредита малому бизнесу на сумму 2,4 млрд.рублей....                                                    </div>
+                    </div>
+
+                     </div> 
+                                                             <div class="item">                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                        style="float:left;padding-left:0px;margin-left:-5px;">
+                        <div class="news-item" id="bx_3099439860_4526">
+
+                            <div class="preview"><img
+                                    class="preview_picture"
+                                    border="0"
+								src="/upload/iblock/750/Tata.jpg"
+                                    width="345"
+                                    height="220"
+                                    alt="РНКБ Банк (ПАО) начинает выплаты вкладчикам Банк «Таатта» АО (г. Якутск)."
+                                    title="РНКБ Банк (ПАО) начинает выплаты вкладчикам Банк «Таатта» АО (г. Якутск)."								
+                                />
+
+                                                                    <div class="news-date-time">
+                                        <div class="time">17.07.18</div>
+                                    </div>
+                                                            </div>
+                            <div class="clearfix"></div>
+                            <div class="title">
+                                <b><a href="/news/4526/">РНКБ Банк (ПАО) начинает выплаты вкладчикам Банк «Таатта» АО (г. Якутск).</a></b>
+                                <br/>
+                            </div>
+
+                                                            РНКБ Банк стал победителем конкурса государственной корпорации «Агентство по страхованию вкладов» на осуществление выплаты возмещения по вкладам вкладчикам Банк «Таатта» АО, проживающим в Республике К...                                                    </div>
+                    </div>
+
+                    
+                                                                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                        >
+                        <div class="news-item" id="bx_3099439860_4525">
+
+                            <div class="preview"><img
+                                    class="preview_picture"
+                                    border="0"
+								src="/upload/iblock/3f4/avto_.jpg"
+                                    width="345"
+                                    height="220"
+                                    alt="РНКБ Банк запускает новую программу для покупки б/у автомобилей в кредит"
+                                    title="РНКБ Банк запускает новую программу для покупки б/у автомобилей в кредит"								
+                                />
+
+                                                                    <div class="news-date-time">
+                                        <div class="time">17.07.18</div>
+                                    </div>
+                                                            </div>
+                            <div class="clearfix"></div>
+                            <div class="title">
+                                <b><a href="/news/4525/">РНКБ Банк запускает новую программу для покупки б/у автомобилей в кредит</a></b>
+                                <br/>
+                            </div>
+
+                                                            РНКБ Банк запускает кредитную программу для приобретения автомобилей с пробегом, приобретенных в автосалонах-партнерах РНКБ....                                                    </div>
+                    </div>
+
+                    
+                                                                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                        style="float:right;padding-right:0px;margin-right:-5px;">
+                        <div class="news-item" id="bx_3099439860_4499">
+
+                            <div class="preview"><img
+                                    class="preview_picture"
+                                    border="0"
+								src="/upload/iblock/225/Rublev.jpg"
+                                    width="345"
+                                    height="220"
+                                    alt="РНКБ Банк (ПАО) начинает выплаты вкладчикам АО КБ «Рублев»"
+                                    title="РНКБ Банк (ПАО) начинает выплаты вкладчикам АО КБ «Рублев»"								
+                                />
+
+                                                                    <div class="news-date-time">
+                                        <div class="time">06.07.18</div>
+                                    </div>
+                                                            </div>
+                            <div class="clearfix"></div>
+                            <div class="title">
+                                <b><a href="/news/4499/">РНКБ Банк (ПАО) начинает выплаты вкладчикам АО КБ «Рублев»</a></b>
+                                <br/>
+                            </div>
+
+                                                            РНКБ Банк стал победителем конкурса государственной корпорации «Агентство по страхованию вкладов» на осуществление выплаты возмещения по вкладам вкладчикам АО&nbsp;КБ&nbsp;«Рублев», проживающим в Респ...                                                    </div>
+                    </div>
+
+                     </div> 
+                                                             <div class="item">                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                        style="float:left;padding-left:0px;margin-left:-5px;">
+                        <div class="news-item" id="bx_3099439860_4496">
+
+                            <div class="preview"><img
+                                    class="preview_picture"
+                                    border="0"
+								src="/upload/iblock/1aa/Alt_era.jpg"
+                                    width="345"
+                                    height="220"
+                                    alt="РНКБ Банк предоставил финансирование ООО «Альт-Эра» на строительство автодороги к Керченскому мосту"
+                                    title="РНКБ Банк предоставил финансирование ООО «Альт-Эра» на строительство автодороги к Керченскому мосту"								
+                                />
+
+                                                                    <div class="news-date-time">
+                                        <div class="time">05.07.18</div>
+                                    </div>
+                                                            </div>
+                            <div class="clearfix"></div>
+                            <div class="title">
+                                <b><a href="/news/4496/">РНКБ Банк предоставил финансирование ООО «Альт-Эра» на строительство автодороги к Керченскому мосту</a></b>
+                                <br/>
+                            </div>
+
+                                                            РНКБ Банк открыл кредитную линию ООО «Альт-Эра» на сумму 53 млн рублей....                                                    </div>
+                    </div>
+
+                    
+                                                                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                        >
+                        <div class="news-item" id="bx_3099439860_4483">
+
+                            <div class="preview"><img
+                                    class="preview_picture"
+                                    border="0"
+								src="/upload/iblock/fa1/Karbon.jpg"
+                                    width="345"
+                                    height="220"
+                                    alt="РНКБ Банк (ПАО) начинает работу с застройщиками в рамках изменений Федерального закона №-214"
+                                    title="РНКБ Банк (ПАО) начинает работу с застройщиками в рамках изменений Федерального закона №-214"								
+                                />
+
+                                                                    <div class="news-date-time">
+                                        <div class="time">03.07.18</div>
+                                    </div>
+                                                            </div>
+                            <div class="clearfix"></div>
+                            <div class="title">
+                                <b><a href="/news/4483/">РНКБ Банк (ПАО) начинает работу с застройщиками в рамках изменений Федерального закона №-214</a></b>
+                                <br/>
+                            </div>
+
+                                                            РНКБ Банк &#40;ПАО&#41; и Группа компаний «КАРБОН» договорились о сотрудничестве в рамках изменений Федерального закона № 214-ФЗ от 30.12.2004г., вступающих в силу с 01.07.18г....                                                    </div>
+                    </div>
+
+                    
+                                                                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                        style="float:right;padding-right:0px;margin-right:-5px;">
+                        <div class="news-item" id="bx_3099439860_4478">
+
+                            <div class="preview"><img
+                                    class="preview_picture"
+                                    border="0"
+								src="/upload/iblock/01e/Scoda_ok2.jpg"
+                                    width="345"
+                                    height="220"
+                                    alt="РНКБ Банк (ПАО) и платежная система «Мир» разыграют автомобиль в рамках акции среди всех держателей карт банка"
+                                    title="РНКБ Банк (ПАО) и платежная система «Мир» разыграют автомобиль в рамках акции среди всех держателей карт банка"								
+                                />
+
+                                                                    <div class="news-date-time">
+                                        <div class="time">30.06.18</div>
+                                    </div>
+                                                            </div>
+                            <div class="clearfix"></div>
+                            <div class="title">
+                                <b><a href="/news/4478/">РНКБ Банк (ПАО) и платежная система «Мир» разыграют автомобиль в рамках акции среди всех держателей карт банка</a></b>
+                                <br/>
+                            </div>
+
+                                                            С 1 июля по 30 сентября 2018 года все держатели карт «Мир» РНКБ, совершающие покупки от 300 рублей по карте «Мир», примут участие в розыгрыше призов....                                                    </div>
+                    </div>
+
+                     </div> 
+                                </div>
+
+
+            <div class="clearfix"></div>
+            <ol class="carousel-indicators visible-sm visible-md visible-lg">
+                                                            <li data-target="#NEWS-CAROUSEL" data-slide-to="0" class="active"></li>                                                                                                                                                 <li data-target="#NEWS-CAROUSEL" data-slide-to="1" ></li>                                                                                                                                                 <li data-target="#NEWS-CAROUSEL" data-slide-to="2" ></li>                                                                                                                                                 <li data-target="#NEWS-CAROUSEL" data-slide-to="3" ></li>                                                                                                                 </ol>
+
+            <div class="clearfix"></div>
+            <br/>
+            <br/>
+            <div class="all-news"><a href="/news">Все новости</a></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div id="mNEWS-CAROUSEL" class="carousel slide visible-xs swiper" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner" role="listbox">
+
+                                            <div class="item active">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="news-item" id="bx_3099439860_4573">
+
+                                <div class="swipe">
+                                    <div class="preview">
+                                                                                <a href="/news/4573/">
+                                            <img alt="Жители Республики Крым и г. Севастополя потратили за месяц 1 млрд рублей по кредитным картам РНКБ" src="/upload/iblock/efe/news_02_08_2018.png" />                                        </a>
+                                                                                    <div class="news-date-time">
+                                                <div class="time">02.08.18</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="title">
+                                    <a href="/news/4573/"><b>Жители Республики Крым и г. Севастополя потратили за месяц 1 млрд рублей по кредитным картам РНКБ</b></a>
+                                    <br/>
+
+                                </div>
+                                <div class="swipe hidden-xs">
+                                                                            РНКБ Банк публикует статистические данные: среднемесячный оборот по кредитным картам «Мир» составил порядка 1 млрд. рублей, при этом прирост портфеля по кредитным картам во втором квартале 2018 года составил 863 млн. руб, что в 2 раза больше прироста за первый квартал текущего года.                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                                                <div class="item">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="news-item" id="bx_3099439860_4572">
+
+                                <div class="swipe">
+                                    <div class="preview">
+                                                                                <a href="/news/4572/">
+                                            <img alt="РНКБ Банк (ПАО) усовершенствовал продукт «Экспресс-гарантия» для юридических лиц" src="/upload/iblock/6e0/news_30_07_2018_2.png" />                                        </a>
+                                                                                    <div class="news-date-time">
+                                                <div class="time">30.07.18</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="title">
+                                    <a href="/news/4572/"><b>РНКБ Банк (ПАО) усовершенствовал продукт «Экспресс-гарантия» для юридических лиц</b></a>
+                                    <br/>
+
+                                </div>
+                                <div class="swipe hidden-xs">
+                                                                            РНКБ изменил условия продукта «Экспресс-гарантия» для юридических лиц и&nbsp;&nbsp;индивидуальных предпринимателей.                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                                                <div class="item">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="news-item" id="bx_3099439860_4571">
+
+                                <div class="swipe">
+                                    <div class="preview">
+                                                                                <a href="/news/4571/">
+                                            <img alt="РНКБ Банк (ПАО) выпустил памятную монету с изображением нового терминала аэропорта «Симферополь»" src="/upload/iblock/717/news_30_07_2018.png" />                                        </a>
+                                                                                    <div class="news-date-time">
+                                                <div class="time">30.07.18</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="title">
+                                    <a href="/news/4571/"><b>РНКБ Банк (ПАО) выпустил памятную монету с изображением нового терминала аэропорта «Симферополь»</b></a>
+                                    <br/>
+
+                                </div>
+                                <div class="swipe hidden-xs">
+                                                                            РНКБ Банк представляет памятную монету «Международный аэропорт «Симферополь» из серебра 999 пробы.                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                                                <div class="item">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="news-item" id="bx_3099439860_4552">
+
+                                <div class="swipe">
+                                    <div class="preview">
+                                                                                <a href="/news/4552/">
+                                            <img alt="РНКБ увеличил финансирование крупнейшего поставщика топлива в Крым на 200 миллионов рублей" src="/upload/iblock/b63/news_26_07_2018.jpg" />                                        </a>
+                                                                                    <div class="news-date-time">
+                                                <div class="time">26.07.18</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="title">
+                                    <a href="/news/4552/"><b>РНКБ увеличил финансирование крупнейшего поставщика топлива в Крым на 200 миллионов рублей</b></a>
+                                    <br/>
+
+                                </div>
+                                <div class="swipe hidden-xs">
+                                                                            РНКБ Банк &#40;ПАО&#41; предоставил финансирование одному из крупнейших поставщиков топлива в Крым – ОАО «Солид – товарные рынки» на сумму 200 млн руб.                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                                                <div class="item">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="news-item" id="bx_3099439860_4551">
+
+                                <div class="swipe">
+                                    <div class="preview">
+                                                                                <a href="/news/4551/">
+                                            <img alt="РНКБ Банк продлил операционный день для юридических лиц и предпринимателей" src="/upload/iblock/826/news_25_07_2018.jpg" />                                        </a>
+                                                                                    <div class="news-date-time">
+                                                <div class="time">25.07.18</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="title">
+                                    <a href="/news/4551/"><b>РНКБ Банк продлил операционный день для юридических лиц и предпринимателей</b></a>
+                                    <br/>
+
+                                </div>
+                                <div class="swipe hidden-xs">
+                                                                            В РНКБ Банк &#40;ПАО&#41; продолжительность продленного операционного дня для юридических лиц и индивидуальных предпринимателей была увеличена на 2 часа.                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                                                <div class="item">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="news-item" id="bx_3099439860_4536">
+
+                                <div class="swipe">
+                                    <div class="preview">
+                                                                                <a href="/news/4536/">
+                                            <img alt="Объемы выдач кредитов для предпринимателей в РНКБ выросли в три раза" src="/upload/iblock/0ed/news_24_07_2018.jpg" />                                        </a>
+                                                                                    <div class="news-date-time">
+                                                <div class="time">23.07.18</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="title">
+                                    <a href="/news/4536/"><b>Объемы выдач кредитов для предпринимателей в РНКБ выросли в три раза</b></a>
+                                    <br/>
+
+                                </div>
+                                <div class="swipe hidden-xs">
+                                                                            В первом полугодии 2018г. РНКБ Банк &#40;ПАО&#41; предоставил более 1,5 тысяч кредита малому бизнесу на сумму 2,4 млрд.рублей.                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                                                <div class="item">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="news-item" id="bx_3099439860_4526">
+
+                                <div class="swipe">
+                                    <div class="preview">
+                                                                                <a href="/news/4526/">
+                                            <img alt="РНКБ Банк (ПАО) начинает выплаты вкладчикам Банк «Таатта» АО (г. Якутск)." src="/upload/resize_cache/iblock/750/350_200_2/Tata.jpg" />                                        </a>
+                                                                                    <div class="news-date-time">
+                                                <div class="time">17.07.18</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="title">
+                                    <a href="/news/4526/"><b>РНКБ Банк (ПАО) начинает выплаты вкладчикам Банк «Таатта» АО (г. Якутск).</b></a>
+                                    <br/>
+
+                                </div>
+                                <div class="swipe hidden-xs">
+                                                                            РНКБ Банк стал победителем конкурса государственной корпорации «Агентство по страхованию вкладов» на осуществление выплаты возмещения по вкладам вкладчикам Банк «Таатта» АО, проживающим в Республике Крым и в городе федерального значения Севастополе.                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                                                <div class="item">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="news-item" id="bx_3099439860_4525">
+
+                                <div class="swipe">
+                                    <div class="preview">
+                                                                                <a href="/news/4525/">
+                                            <img alt="РНКБ Банк запускает новую программу для покупки б/у автомобилей в кредит" src="/upload/resize_cache/iblock/3f4/350_200_2/avto_.jpg" />                                        </a>
+                                                                                    <div class="news-date-time">
+                                                <div class="time">17.07.18</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="title">
+                                    <a href="/news/4525/"><b>РНКБ Банк запускает новую программу для покупки б/у автомобилей в кредит</b></a>
+                                    <br/>
+
+                                </div>
+                                <div class="swipe hidden-xs">
+                                                                            РНКБ Банк запускает кредитную программу для приобретения автомобилей с пробегом, приобретенных в автосалонах-партнерах РНКБ.                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                                                <div class="item">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="news-item" id="bx_3099439860_4499">
+
+                                <div class="swipe">
+                                    <div class="preview">
+                                                                                <a href="/news/4499/">
+                                            <img alt="РНКБ Банк (ПАО) начинает выплаты вкладчикам АО КБ «Рублев»" src="/upload/resize_cache/iblock/225/350_200_2/Rublev.jpg" />                                        </a>
+                                                                                    <div class="news-date-time">
+                                                <div class="time">06.07.18</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="title">
+                                    <a href="/news/4499/"><b>РНКБ Банк (ПАО) начинает выплаты вкладчикам АО КБ «Рублев»</b></a>
+                                    <br/>
+
+                                </div>
+                                <div class="swipe hidden-xs">
+                                                                            РНКБ Банк стал победителем конкурса государственной корпорации «Агентство по страхованию вкладов» на осуществление выплаты возмещения по вкладам вкладчикам АО&nbsp;КБ&nbsp;«Рублев», проживающим в Республике Крым и в городе федерального значения Севастополе.                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                                                <div class="item">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="news-item" id="bx_3099439860_4496">
+
+                                <div class="swipe">
+                                    <div class="preview">
+                                                                                <a href="/news/4496/">
+                                            <img alt="РНКБ Банк предоставил финансирование ООО «Альт-Эра» на строительство автодороги к Керченскому мосту" src="/upload/resize_cache/iblock/1aa/350_200_2/Alt_era.jpg" />                                        </a>
+                                                                                    <div class="news-date-time">
+                                                <div class="time">05.07.18</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="title">
+                                    <a href="/news/4496/"><b>РНКБ Банк предоставил финансирование ООО «Альт-Эра» на строительство автодороги к Керченскому мосту</b></a>
+                                    <br/>
+
+                                </div>
+                                <div class="swipe hidden-xs">
+                                                                            РНКБ Банк открыл кредитную линию ООО «Альт-Эра» на сумму 53 млн рублей.                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                                                <div class="item">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="news-item" id="bx_3099439860_4483">
+
+                                <div class="swipe">
+                                    <div class="preview">
+                                                                                <a href="/news/4483/">
+                                            <img alt="РНКБ Банк (ПАО) начинает работу с застройщиками в рамках изменений Федерального закона №-214" src="/upload/resize_cache/iblock/fa1/350_200_2/Karbon.jpg" />                                        </a>
+                                                                                    <div class="news-date-time">
+                                                <div class="time">03.07.18</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="title">
+                                    <a href="/news/4483/"><b>РНКБ Банк (ПАО) начинает работу с застройщиками в рамках изменений Федерального закона №-214</b></a>
+                                    <br/>
+
+                                </div>
+                                <div class="swipe hidden-xs">
+                                                                            РНКБ Банк &#40;ПАО&#41; и Группа компаний «КАРБОН» договорились о сотрудничестве в рамках изменений Федерального закона № 214-ФЗ от 30.12.2004г., вступающих в силу с 01.07.18г.                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                                                <div class="item">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="news-item" id="bx_3099439860_4478">
+
+                                <div class="swipe">
+                                    <div class="preview">
+                                                                                <a href="/news/4478/">
+                                            <img alt="РНКБ Банк (ПАО) и платежная система «Мир» разыграют автомобиль в рамках акции среди всех держателей карт банка" src="/upload/resize_cache/iblock/01e/350_200_2/Scoda_ok2.jpg" />                                        </a>
+                                                                                    <div class="news-date-time">
+                                                <div class="time">30.06.18</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="title">
+                                    <a href="/news/4478/"><b>РНКБ Банк (ПАО) и платежная система «Мир» разыграют автомобиль в рамках акции среди всех держателей карт банка</b></a>
+                                    <br/>
+
+                                </div>
+                                <div class="swipe hidden-xs">
+                                                                            С 1 июля по 30 сентября 2018 года все держатели карт «Мир» РНКБ, совершающие покупки от 300 рублей по карте «Мир», примут участие в розыгрыше призов.                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                        </div>
+        <ol class="carousel-indicators visible-xs">
+                            <li data-target="#mNEWS-CAROUSEL" data-slide-to="0" class="active"></li>
+                                <li data-target="#mNEWS-CAROUSEL" data-slide-to="1" ></li>
+                                <li data-target="#mNEWS-CAROUSEL" data-slide-to="2" ></li>
+                                <li data-target="#mNEWS-CAROUSEL" data-slide-to="3" ></li>
+                                <li data-target="#mNEWS-CAROUSEL" data-slide-to="4" ></li>
+                                <li data-target="#mNEWS-CAROUSEL" data-slide-to="5" ></li>
+                                <li data-target="#mNEWS-CAROUSEL" data-slide-to="6" ></li>
+                                <li data-target="#mNEWS-CAROUSEL" data-slide-to="7" ></li>
+                                <li data-target="#mNEWS-CAROUSEL" data-slide-to="8" ></li>
+                                <li data-target="#mNEWS-CAROUSEL" data-slide-to="9" ></li>
+                                <li data-target="#mNEWS-CAROUSEL" data-slide-to="10" ></li>
+                                <li data-target="#mNEWS-CAROUSEL" data-slide-to="11" ></li>
+                        </ol>
+        <div class="clearfix"></div>
+        <br/>
+        <br/>
+        <br/>
+        <div class="all-news"><a href="/news">Все новости</a></div>
+
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+</div></div><br>
+ <!-- Тэг домашней страницы Criteo OneTag --> <script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script> <script type="text/javascript">
+window.criteo_q = window.criteo_q || [];
+var deviceType = /iPad/.test(navigator.userAgent) ? "t" : /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : "d";
+window.criteo_q.push(
+ { event: "setAccount", account: 49340}, // Это значение остается неизменным
+ { event: "setEmail", email: "79054025255fb1a26e4bc422aef54eb4" }, // Может быть пустой строкой 
+ { event: "setSiteType", type: deviceType},
+ { event: "viewHome"});
+</script> <!-- Конец тэга домашней страницы Criteo OneTag --><br><footer>
+    <div class="container" style="min-height: 410px;">
+		<div class="row top_footer_row">
+			<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 mfmenu">
+						<div id="bxdynamic_NMQc3w_start" style="display:none"></div><nav class="foot-nav">
+
+
+			<a href="/about">О банке</a>
+	
+			<a href="/tarify/">Тарифы</a>
+	
+			<a href="/kontakty/">Контакты</a>
+	
+			<a href="/internet-bank-i-mobilnoe-prilozhenie-rnkb-24-7/">Интернет-банк и мобильное приложение «РНКБ 24/7»</a>
+	
+			<a href="/realizatsiya-neprofilnykh-avktivov/">Реализация непрофильных активов</a>
+	
+			<a href="/news/">Новости</a>
+	
+			<a href="/rekvizity/">Реквизиты</a>
+	
+
+	</nav>
+<div id="bxdynamic_NMQc3w_end" style="display:none"></div>					</div>
+					<div class="col-xs-12 col-sm-6 mfmenu">
+						<div id="bxdynamic_mKUqxK_start" style="display:none"></div><nav class="foot-nav">
+
+
+			<a href="/vakansii/">Вакансии</a>
+	
+			<a href="/rncb-karera/">РНКБ карьера</a>
+	
+			<a href="/bezopasnost/">Безопасность</a>
+	
+			<a href="/aktsioneram-i-investoram/">Акционерам и инвесторам</a>
+	
+			<a href="/raskrytie-informatsii-professionalnogo-uchastnika/">Раскрытие информации  профессионального участника</a>
+	
+			<a href="/zakupki/">Закупки</a>
+	
+			<a href="/vopros-otvet/">Вопрос-ответ</a>
+	
+			<a href="/fizicheskkim-litsam/vklady-i-scheta/strakhovye-vyplaty/">Страховые выплаты</a>
+	
+
+	</nav>
+<div id="bxdynamic_mKUqxK_end" style="display:none"></div>					</div>
+				</div>
+			</div>
+			<div class="clearfix visible-xs visible-sm"></div><div class="footer_clear_border visible-xs visible-sm"></div>
+			<div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+				<div class="title">Телефоны</div>
+				<h5>8 (800) 234-27-27</h5>				<h5>+7 (3652) 550-500</h5>
+<h5>+7 (495) 232-90-00</h5>				<div class="title">Факс</div>
+				<h5>+7 (3652) 550-505</h5>
+<h5>+7 (495) 232-90-90</h5>				<div class="title">Telex</div>
+				<h5>412366 ROCOM RU</h5>			</div>
+			<div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+				<div class="title">Адрес</div>
+				<h5>295000, г. Симферополь,&nbsp;</h5>
+<h5>ул. Набережная имени</h5>
+<h5>60-летия СССР, д. 34</h5>				<a class="fasv" href="http://www.asv.org.ru/" target="_blank" style="margin-top: 20px; display: block;"><img src="/local/templates/rncb/images/vklady.png"></a>
+			</div>
+			<div class="clearfix visible-xs"></div><div class="footer_clear_border visible-xs"></div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+				<!-- FOOTER COURSE -->
+				<div id="bxdynamic_pcRiyT_start" style="display:none"></div>
+<link href="/local/common/css/assets/icons.css" rel="stylesheet" type="text/css" media="all" />
+
+<table class="mb0">
+	<colgroup>
+		<col width="30">
+		<col>
+	</colgroup>
+<tr>
+	<td class="pr9"><i class="b-icon b-icon_exchange"></i></td>
+	<td class="pb0"><div class="b-footer__header pb0" style="margin-bottom: 5px;">
+Курсы валют<br>на 08.08.2018</div></td>
+</tr>
+<tr>
+<td class="pb0" colspan="2">
+
+<div id="cat_tab_helb5C" class="bx-catalog-tab-section-container">
+	<ul class="bx-catalog-tab-list" style="left: 0;">
+		<li id="cat_tab_helb5Cfc__tab__fiz"><span>Физ.лица</span></li><li id="cat_tab_helb5Cfc__tab__jur"><span>Юр.лица</span></li>	</ul>
+	<div class="bx-catalog-tab-body-container">
+		<div class="bx-catalog-tab-container">
+			<div id="cat_tab_helb5Cfc__tab__fiz_cont" class="tab-off"><table class="footer_curensy_table">
+<tr>
+	<td class="curensy_icon">
+		<i class="b-icon b-icon_dollar"></i>
+	</td>
+	<td>
+		<div class="fc__cur_val" data-type="fiz" data-group=0 data-cur="USD"> 62.65 / 66.65 </div>
+	</td>
+</tr>
+<tr>
+	<td class="curensy_icon">
+		<i class="b-icon b-icon_euro"></i>
+	</td>
+	<td>
+		<div class="fc__cur_val" data-type="fiz" data-group=0 data-cur="EUR"> 71.6 / 75.6 </div>
+	</td>
+</tr>
+</table>
+<nobr>Курсы валют от 10 000</nobr>
+<table class="footer_curensy_table">
+<tr>
+	<td class="curensy_icon">
+		<i class="b-icon b-icon_dollar"></i>
+	</td>
+	<td>
+		<div class="fc__cur_val" data-type="fiz" data-group=1 data-cur="USD"> 63.15 / 65.15 </div>
+	</td>
+</tr>
+<tr>
+	<td class="curensy_icon">
+		<i class="b-icon b-icon_euro"></i>
+	</td>
+	<td>
+		<div class="fc__cur_val" data-type="fiz" data-group=1 data-cur="EUR"> 73.4 / 75.4 </div>
+	</td>
+</tr>
+</table></div><div id="cat_tab_helb5Cfc__tab__jur_cont" class="tab-off"><table class="footer_curensy_table">
+<tr>
+	<td class="curensy_icon">
+		<i class="b-icon b-icon_dollar"></i>
+	</td>
+	<td>
+		<div class="fc__cur_val" data-type="jur" data-group=0 data-cur="USD"> 63.55 / 64.75 </div>
+	</td>
+</tr>
+<tr>
+	<td class="curensy_icon">
+		<i class="b-icon b-icon_euro"></i>
+	</td>
+	<td>
+		<div class="fc__cur_val" data-type="jur" data-group=0 data-cur="EUR"> 73.8 / 75 </div>
+	</td>
+</tr>
+<tr>
+	<td class="curensy_icon">
+		<i class="b-icon b-icon_uah"></i>
+	</td>
+	<td>
+		<div class="fc__cur_val0" data-type="uah" data-cur="UAH">Индивидуальный запрос</div>
+	</td>
+</tr>
+</table></div>		</div>
+	</div>
+</div>
+<script type="text/javascript">
+var catalogTabs_cat_tab_helb5C = new JCCatalogTabs({'activeTabId':'fc__tab__fiz','tabsContId':'cat_tab_helb5C','tabList':['fc__tab__fiz','fc__tab__jur']});
+</script>
+
+</td>
+</tr>
+</table>
+
+
+<div id="bxdynamic_pcRiyT_end" style="display:none"></div>				<!-- END FOOTER COURSE -->
+			</div>
+		</div>
+		<div class="row ht_footer_row hidden-xs">
+		<div class="col-sm-12 col-lg-5 hidden-xs">
+		<div class="clearfix hidden-xs footer_clear_border"></div>
+			<p>
+ <span style="font-size: 9pt; color: #a0a0a0;">Раскрытие информации на сайте агентства <a style="font-size: 9pt; color: #a0a0a0; text-decoration: underline;" href="http://www.e-disclosure.ru/portal/company.aspx?id=2225" target="_blanc">«Интерфакс»</a><br>
+ <a style="font-size: 9pt; color: #a0a0a0; text-decoration: underline;" href="/upload/2018/fiz-lica/vklady/3194U_2018_06.pdf" target="_blank">Информация о максимальных процентных ставках по вкладам физических лиц</a></span>
+</p>		</div></div>
+<div class="clearfix visible-xs visible-sm"><div class="footer_clear_border"></div></div>
+		<div class="row middle_footer_row">
+			<div class="col-xs-12 col-sm-6">
+				<span class="social social-desc">
+					<br class="hidden-xs hidden-sm">
+<a href="https://vk.com/rncb.crimea" target="_blank"><img width="33" src="/upload/medialibrary/99b/99bd93ed5cc6bf4379c0a4e9707eab07.png" height="33" class="vk" alt="вконтакте" title="вконтакте"></a>&nbsp; &nbsp;<a href="https://www.facebook.com/rncb.crimea/" target="_blank"><img width="33" alt="facebook" src="/upload/medialibrary/f0c/f0cf25de612fcda9e57bb71d186d95a1.png" height="33" class="facebook" title="facebook"></a>&nbsp; &nbsp;<a href="https://ok.ru/group/54600450900200" target="_blank"><img width="33" src="/upload/medialibrary/icons/social/ok.png" height="33" alt="одноклассники" title="одноклассники" class="ok"></a>&nbsp; &nbsp;<a href="https://www.youtube.com/channel/UC9Xhnnq_MYT6lHRVpeo_PRQ" target="_blank"><img width="32" alt="youtube" src="/upload/medialibrary/689/6891f0afac14639921bcf61be498fa90.png" height="33" class="youtube" title="youtube"></a>&nbsp; &nbsp;<a href="https://twitter.com/rncb_crimea?lang=ru" target="_blank"><img width="32" alt="twitter" src="/upload/medialibrary/icons/social/twitter.png" height="33" class="twitter" title=""></a><br>
+ <br>
+ <a class="license_link" href="#license_main_page" data-toggle="modal" data-target="#license_main_page"><span style="font-size: 9pt; color: #a0a0a0;">Генеральная лицензия Банка России <nobr><span style="font-size: 9pt; color: #a0a0a0;">№ 1354</span></nobr></span></a>
+<!-- Modal -->
+<div class="modal fade" id="license_main_page" tabindex="-1" role="dialog" aria-labelledby="ModalLicense" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+ <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			</div>
+			<div class="modal-body">
+ <img src="/upload/iblock/ba9/Generalnaya_1.jpg" alt="">
+			</div>
+			<div class="modal-footer">
+ <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+			</div>
+		</div>
+	</div>
+</div>
+ <style>
+.social .modal-body img {border-radius: 0;}
+</style><br>				</span>
+			</div>
+			<div class="col-xs-12 visible-xs">
+				<p>
+ <span style="font-size: 9pt; color: #a0a0a0;">Раскрытие информации на сайте агентства <a style="font-size: 9pt; color: #a0a0a0; text-decoration: underline;" href="http://www.e-disclosure.ru/portal/company.aspx?id=2225" target="_blanc">«Интерфакс»</a><br>
+ <a style="font-size: 9pt; color: #a0a0a0; text-decoration: underline;" href="/upload/2018/fiz-lica/vklady/3194U_2018_06.pdf" target="_blank">Информация о максимальных процентных ставках по вкладам физических лиц</a></span>
+</p>			</div>
+		</div>
+<div class="clearfix visible-xs visible-sm"><div class="footer_clear_border"></div></div>
+		<div class="row bottom_footer_row">
+			<div class="col-xs-12">
+				<p style="line-height: 10px; margin-top: 10px;">
+					<span style="font-size: 10px; color: #a0a0a0">Вся информация, файлы и графические материалы, опубликованные на настоящем веб-сайте, представлены в качестве источника общей информации исключительно для ознакомительных целей и являются предметом защиты интеллектуальных прав в Российской Федерации, а также иных юрисдикциях. Все права принадлежат РНКБ Банк (ПАО). Любое несанкционированное использование или копирование информации или графических материалов с сайта допускается исключительно по письменному разрешению правообладателя.</span>
+				</p>
+				<p>
+					<span style="font-size: 9pt; color: #a0a0a0;">© 1991-2018&nbsp;РОССИЙСКИЙ НАЦИОНАЛЬНЫЙ КОММЕРЧЕСКИЙ БАНК (публичное акционерное общество)</span>
+				</p>
+			</div>
+		</div>
+    </div>
+</footer>
+
+<!--Yandex.Metrika counter--><script type="text/javascript">var yaParams = {ip: "91.210.179.105"};(function(d,w,c){(w[c]=w[c]||[]).push(function(){try{w.yaCounter25306403=new Ya.Metrika({id:25306403,params:window.yaParams,clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});}catch(e){}});var n=d.getElementsByTagName("script")[0],s=d.createElement("script"),f=function(){n.parentNode.insertBefore(s,n);};s.type="text/javascript";s.async=true;s.src="https://mc.yandex.ru/metrika/watch.js";if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",f,false);}else{f();}})(document,window,"yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/25306403"style="position:absolute; left:-9999px;"alt=""/></div></noscript><!--/Yandex.Metrika counter-->
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117517704-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117517704-1');
+</script>
+<!-- /Google Analytics -->
+<!-- START GOOGLE Remarketing -->
+<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 815828017;
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+	<div style="display:inline;">
+		<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/815828017/?guid=ON&amp;script=0"/>
+	</div>
+</noscript>
+<!-- END GOOGLE Remarketing -->
+
+</body>
+</html><!--f7414afd710efb7ae870e0135266d045-->
