@@ -29,14 +29,14 @@
                 params = {
                     string: array_of_urls
                 };
-                $.get("../performance/make_price_list", params, function (response) {
-                    var resp = App.json(response);
-                    console_log(resp);
+                $.post("./performance.php/make_price_list", params, function (response) {
+                    var resp = response;
+                    render(resp);
                 });
         };   
         
-        function render(){
-            $('#mydiv').html('Hello World');
+        function render(string){
+            $('#mydiv').html(string);
         };
             
             
