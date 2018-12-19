@@ -13,7 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 
-<link rel="stylesheet" href="catalog/view/javascript/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="catalog/view/javascript/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="catalog/view/javascript/soconfig/css/lib.css">
 <link rel="stylesheet" href="catalog/view/theme/so-emarket/css/ie9-and-up.css">
@@ -32,8 +32,8 @@
 <link rel="stylesheet" href="catalog/view/theme/so-emarket/css/footer/footer5.css">
 <link rel="stylesheet" href="catalog/view/theme/so-emarket/css/responsive.css">
 
-<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
-<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="catalog/view/javascript/soconfig/js/libs.js"></script>
 <script src="catalog/view/javascript/soconfig/js/so.system.js"></script>
 <script src="catalog/view/javascript/soconfig/js/jquery.sticky-kit.min.js"></script>
@@ -59,7 +59,13 @@
  	
 	<style type="text/css">
 		 body, #wrapper{font-family:'Open Sans', sans-serif}
-		 
+                 .info-table-row{
+                    -moz-transition: opacity 1s;
+                    -webkit-transition:  opacity 1s;
+                    transition: transform 1s ease-out, opacity 2s ease-out;
+                    opacity:0;
+                    transform: translateX(-120%)
+                 }
 	</style>
  
  
@@ -975,7 +981,7 @@ $(document).ready(function(){
   <div class="row">
                 <div id="content" class="col-sm-12 item-article">
     
-                              <div class="info-image" style="background-image:url(//aruna.market/image/catalog/articles/BecomeSeller.jpg); height:450px;
+                              <div class="info-image" style="background-image:url(//aruna.market/image/catalog/articles/delivery.jpg); height:450px;
                              background-size: cover; background-position: center; width: 100%; margin-bottom: 20px">
                             <div style="position: relative; background-color: black;  background-position: fixed; 
                                  opacity: 0.6; height: 200px;
@@ -991,19 +997,22 @@ $(document).ready(function(){
                             <div style="position: relative; top: -100px; color:white;color: white; padding: 20px;
                                  margin-right: 13em;margin-left: 13em; text-align: center; font-size: 19px;
                                  font-family: Century Gothic">
-                                Открыть свой магазин теперь намного проще! И все это - благодаря новым возможностям, которые наш магазин дарит всем желающим продавать и зарабатывать.
+                                Получайте желаемое не выходя из дома!
                             </div>
                         </div>
-                        <div >
-                            <table style="display:grid; width:90%; text-align: center; margin-left: 5%;margin-bottom: 40px; padding:40px;  font-family: Century Gothic;" >
+                        <div>
+                            
+                            
+                            
+                            <table class="info-table" style="display:grid; width:90%; text-align: center; margin-left: 5%; padding:40px; padding-bottom:0px;  font-family: Century Gothic;" >
                                 
-                                <tr class="info-table-row" style="display: block; background-color: white; box-shadow: 1px 1px 3px lightgrey; 
+                                <tr class="info-table-row row1" style="display: block; background-color: white; box-shadow: 1px 1px 3px lightgrey; 
                                         padding:20px; margin-bottom: 40px" >
                                     <td style="width:15%">
-                                        <h1  style="padding:10px; font-size: 50px; margin-bottom: 0px; color:#5aa4ed">1</h1>
+                                        <h1  style="padding:10px; font-size: 50px; margin-bottom: 0px; color:#5aa4ed">1.</h1>
                                     </td>
-                                    <td style="width:25%; height:100%; border-right: 1px solid black; border-left: 1px solid black"> 
-                                        <div style="padding:1em; padding-right: 2em; padding-left: 2em">
+                                    <td style="width:20%; height:100%; border-right: 1px solid rgb(102, 102, 102); border-left: 1px solid rgb(102, 102, 102); background-image: url(http://localhost:888/aruna/public_html/image/catalog/articles/delivery/money.jpg); height: 234px;"> 
+                                        <div style="padding:1em; padding-right: 2em; padding-left: 2em; color:white">
                                            <h3 style="margin-bottom: 0px">НИЗКАЯ ЦЕНА</h3> 
                                         </div>
                                         
@@ -1017,61 +1026,144 @@ $(document).ready(function(){
                                         </p>
                                     </td>
                                 </tr>
-                                <tr class="info-table-row" style="background-color: white; display: block; box-shadow: 1px 1px 3px lightgrey; ">
-                                    <td style="width:25%; height:100%; border-right: 1px solid black;"> 
-                                        <div style="padding:1em; padding-right: 2em; padding-left: 2em">
-                                           <h5 style="margin-bottom: 0px">НА ЗАМЕТКУ ПОКУПАТЕЛЮ</h5> 
-                                        </div>
-                                    </td>
-                                    <td style="width:50%; padding: 1em; padding-left: 2em; text-align: left;">
-                                        <p style="margin-bottom: 0px; font-size: 14px;"> 
-                                           Уважаемый покупаетель, Мы просим запомнить одно очень важное правило, касающееся доставки в интернет-магазинах:
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr class="info-table-row" style="background-color: white; margin-bottom: 40px; display: block;padding: 1em; box-shadow: 1px 1px 3px lightgrey; ">
-                                    <td style="width:18%; height:100%; ">
-                                        <h4 style="margin-bottom: 0px;"> 
-                                           БЕСПЛАТНАЯ ДОСТАВКА ТОЛЬКО В МЫШЕЛОВКЕ!
-                                        </h4>
+                                <tr class="info-table-row" style="display:inline-block">
+                                    <td>
+                                        <div class="info-block" style=" text-align: center; 
+                                               background-color: white; box-shadow: 1px 1px 3px lightgrey; 
+                                               padding:20px; font-size: 19px; font-family: Century Gothic;
+                                               ">                                        
+                                              <p style="font-size: 14px;"> 
+                                                  Уважаемый покупаетель, мы просим запомнить одно очень важное правило, касающееся доставки в интернет-магазинах:
+                                               </p>
+                                                 <h4 > 
+                                                  БЕСПЛАТНАЯ ДОСТАВКА ТОЛЬКО В МЫШЕЛОВКЕ!
+                                                  </h4>
+                                                 <a style="margin:15px" class="btn btn-primary" onclick="$('.info-block h5').show();$(this).hide()">Буду иметь в виду</a>
+                                                 <h5 style="color:green; display:none; margin: 2em;">СПАСИБО!</h5>
+                                          </div>  
                                     </td>
                                 </tr>
-                                
-                                <tr class="info-table-row" style="display: block; background-color: white; box-shadow: 1px 1px 3px lightgrey; 
+                            </table> 
+                            
+                                <table class="info-table"  style="display:grid; width:90%; text-align: center; margin-left: 5%;margin-bottom: 40px; padding:40px;  font-family: Century Gothic;" >
+                                <tr class="info-table-row row2" style="display: block; background-color: white; box-shadow: 1px 1px 3px lightgrey; 
                                         padding:20px; margin-bottom: 40px" >
                                     <td style="width:15%">
-                                        <h1  style="padding:10px; font-size: 50px; margin-bottom: 0px; color:#5aa4ed">1</h1>
+                                        <h1  style="padding:10px; font-size: 50px; margin-bottom: 0px; color:#5aa4ed">2.</h1>
                                     </td>
-                                    <td style="width:25%; height:100%; border-right: 1px solid black; border-left: 1px solid black"> 
-                                        <div style="padding:1em; padding-right: 2em; padding-left: 2em">
-                                           <h3 style="margin-bottom: 0px">НИЗКАЯ ЦЕНА</h3> 
+                                    <td style="width:20%; height:100%; border-right: 1px solid rgb(102, 102, 102); border-left: 1px solid rgb(102, 102, 102); background-image: url(http://localhost:888/aruna/public_html/image/catalog/articles/delivery/schedule.jpg); height: 234px;"> 
+                                        <div style="padding:1em; padding-right: 2em; padding-left: 2em;color:white">
+                                           <h3 style="margin-bottom: 0px">УДОБНЫЙ ГРАФИК</h3> 
                                         </div>
                                         
                                     </td>
                                     <td style="width:50%; padding: 1em; padding-left: 2em; text-align: left;">
-                                        <p style="margin-bottom: 0px; font-size: 14px;"> 
-                                            Стоимость доставки <u>любого вида</u> товара на <b>Aruna</b> составляет всего лишь <b>180 рублей</b>.
-                                            В отличии от других сервисов и интернет-магазинов Симферополя, Мы считаем абсолютно неприемлемыми любые другие подходы к установке стоимости доставки, например, такие как
-                                            минимальный заказ и т.п. Наша команда считает, что такие методы ограничивает покупателя, не позволяя использовать полный потенциал доставки. Для нас неважно, будь Ваш заказ
-                                            на 1000 рублей или на 100 рублей. Наши курьеры все-равно доставят Вашу покупку к порогу Вашего дома, потому что для нас важно, чтобы наш покупатель имел возможность получить любой товар не выходя из дома. 
+                                        <p style="margin-bottom: 0px; font-size: 14px;">
+                                            Наша доставка доступна 5 дней в неделю: <b>с понедельника по пятницу</b>. Что касается времени, то есть некоторые условия. Так, например,
+                                            если Ваш заказ был оформлен <b>до 15:00</b>, то он непременно будет доставлен непосредственно Вам в руки в тот же день в период <b>с 16:00 до 20:00</b>.
+                                            Мы считаем этот промежуток времени наиболее подходящим и удобным, поскольку рабочий день как раз подходит к концу, так что нет никаких опасений,
+                                            что курьер прибудет к Вам в тот момент, когда Вы ещё на работе. В случае же, если заказ был оформлен <b>после 15:00</b>, то он также будет доставлен <b>в конце рабочего дня</b>, но
+                                            уже <b>на следующий день</b>. Дело в том, что из-за большого количества заказов требуется значительное время на их подготовку к отправке.
                                         </p>
                                     </td>
                                 </tr>
+                                
+                                
+                                <tr class="info-table-row row3" style="display: block; background-color: white; box-shadow: 1px 1px 3px lightgrey; 
+                                        padding:20px; margin-bottom: 40px" >
+                                    <td style="width:15%">
+                                        <h1  style="padding:10px; font-size: 50px; margin-bottom: 0px; color:#5aa4ed">3.</h1>
+                                    </td>
+                                    <td style="width:20%; height:100%; border-right: 1px solid rgb(102, 102, 102); border-left: 1px solid rgb(102, 102, 102); background-image: url(http://localhost:888/aruna/public_html/image/catalog/articles/delivery/map.jpg); height: 234px;"> 
+                                        <div style="padding:1em; padding-right: 2em; padding-left: 2em;color:white">
+                                           <h3 style="margin-bottom: 0px">ЛЮБАЯ ТОЧКА ГОРОДА</h3> 
+                                        </div>
+                                        
+                                    </td>
+                                    <td style="width:50%; padding: 1em; padding-left: 2em; text-align: left;">
+                                        <p style="margin-bottom: 0px; font-size: 14px;">
+                                        Курьеры Aruna готовы доставить любой заказ в любую точку города Симферополь. Если покупатель живет в пещере - мы доставим. Если покупатель живет на 95-м этаже небоскреба - мы доставим.  
+                                        </p>
+                                    </td>
+                                </tr>
+                                
+                                
+                                
+                                <tr class="info-table-row row4" style="display: block; background-color: white; box-shadow: 1px 1px 3px lightgrey; 
+                                        padding:20px; margin-bottom: 40px" >
+                                    <td style="width:15%">
+                                        <h1  style="padding:10px; font-size: 50px; margin-bottom: 0px; color:#5aa4ed">4.</h1>
+                                    </td>
+                                    <td style="width:20%; height:100%; border-right: 1px solid rgb(102, 102, 102);; border-left: 1px solid rgb(102, 102, 102);background-image: url(http://localhost:888/aruna/public_html/image/catalog/articles/delivery/relax.jpg); height: 234px;"> 
+                                        <div style="padding:1em; padding-right: 2em; padding-left: 2em;color:white">
+                                           <h3 style="margin-bottom: 0px">ЭКОНОМИЯ ВРЕМЕНИ И СИЛ</h3> 
+                                        </div>
+                                        
+                                    </td>
+                                    <td style="width:50%; padding: 1em; padding-left: 2em; text-align: left;">
+                                        <p style="margin-bottom: 0px; font-size: 14px;">
+                                            Современный мир настолько стремительно движется вперед, что порой нам совсем не хватает времени на любимые дела, хобби и увлечения. Но у такого стремительного движения есть, конечно, и свои плюсы.
+                                            Так, например, ещё в конце прошлого века, если у Вас возникло бы желание совершить покупку, Вам непременно было бы необходимо выйти из дома и пойти в ближайший магазин, в надежде на то, что в нём есть именно тот товар,
+                                            который и был Вам необходим. В наше время таких проблем уже не существует. Мы предлагаем Вам сохранить Ваше драгоценное время и поберечь силы для более важных дел, позволив <b>Aruna</b> позаботиться о доставке желаемых товаров. 
+                                        </p>
+                                    </td>
+                                </tr>
+                                
+                                
+                                
+                                <tr class="info-table-row row5" style="display: block; background-color: white; box-shadow: 1px 1px 3px lightgrey; 
+                                        padding:20px; margin-bottom: 40px" >
+                                    <td style="width:15%">
+                                        <h1  style="padding:10px; font-size: 50px; margin-bottom: 0px; color:#5aa4ed">5.</h1>
+                                    </td>
+                                    <td style="width:20%; height:100%; border-right: 1px solid rgb(102, 102, 102);; border-left: 1px solid rgb(102, 102, 102);background-image: url(http://localhost:888/aruna/public_html/image/catalog/articles/delivery/checkbox.jpg); height: 234px;"> 
+                                        <div style="padding:1em; padding-right: 2em; padding-left: 2em;color:white">
+                                           <h3 style="margin-bottom: 0px">СООТВЕТСТВИЕ ТОВАРА</h3> 
+                                        </div>
+                                        
+                                    </td>
+                                    <td style="width:50%; padding: 1em; padding-left: 2em; text-align: left;">
+                                        <p style="margin-bottom: 0px; font-size: 14px;">
+                                            Зачастую клиенты невнимательных интернет-магазинов сталкиваются с одной из самых распространенных проблем онлайн-шоппинга - действительный товар при получении отличается от изначально желаемого. 
+                                            Этот фактор, безусловно отталкивает и заставляет многих воздерживаться от покупок в интернете. Решением этой проблемы является Aruna. На нашем сайте Вы можете видеть большое количество фотграфий каждого товара, богатое описание и самые подробные характеристики,
+                                            что позволит Вам выбрать именно тот товар, который отвечает вашим запросом. Возможность ошибки при доставке абсолютно исключена. Мы пользуемся современными технологиями контроля сборки и отгрузки заказов, которые исключают всякую вероятность ошибки. 
+                                        </p>
+                                    </td>
+                                </tr>
+                                
+                                
+                                
+                                
+                                <tr class="info-table-row row6" style="display: block; background-color: white; box-shadow: 1px 1px 3px lightgrey; 
+                                        padding:20px; margin-bottom: 40px" >
+                                    <td style="width:15%">
+                                        <h1  style="padding:10px; font-size: 50px; margin-bottom: 0px; color:#5aa4ed">6.</h1>
+                                    </td>
+                                    <td style="width:20%; height:100%; border-right: 1px solid rgb(102, 102, 102);; border-left: 1px solid rgb(102, 102, 102);background-image: url(http://localhost:888/aruna/public_html/image/catalog/articles/delivery/trust.jpg); height: 234px;"> 
+                                        <div style="padding:1em; padding-right: 2em; padding-left: 2em;color:white">
+                                           <h3 style="margin-bottom: 0px">ДОВЕРИЕ</h3> 
+                                        </div>
+                                        
+                                    </td>
+                                    <td style="width:50%; padding: 1em; padding-left: 2em; text-align: left;">
+                                        <p style="margin-bottom: 0px; font-size: 14px;">
+                                           Одним из самых важных факторов при работе с клиентами для нас является доверие. Мы не можем позволить себе подвести наших покупателей, а потому оплата производится только при получении товара заказчиком в руки.  
+                                        </p>
+                                    </td>
+                                </tr>
+                                
                             </table>    
                         </div>
                         
-                        
+                       
                         
                         
                         <div class="info-block" style="width:50%; text-align: center; margin-left: 25%;
-                             background-color: white; box-shadow: 1px 1px 3px lightgrey; 
                              padding:20px; font-size: 19px; font-family: Century Gothic;
                              margin-bottom: 20px">
-                            <h2 style="border-bottom:1px solid black; padding:10px">Заинтересованы?</h2>
-                            <p>
-                               Создайте свой интернет-магазин на Aruna прямо сейчас!
-                               <a style="margin:15px" href="index.php?route=account/login" class="btn btn-primary">Продолжить</a>
-                            </p>
+                            <h3>
+                               С заботой о вашем комфорте
+                            </h3>
                         </div>  
     </div>
     </div>
@@ -1259,6 +1351,36 @@ $(document).ready(function(){
 </div>
 
 			<script>
+    
+$(window).scroll(function(){
+  $('.info-table-row').each(function(){
+     // $(this).css('transition', 'opacity 1s ease-in-out');
+    if(isScrolledIntoView($(this))){
+      $(this).css('opacity', '1').css('transform', 'translateX(0%)');
+        }
+    /*}
+    else{
+      $(this).css('opacity', '0').css('transform', 'translateX(-120%)');
+    }*/
+  });
+});
+
+function isScrolledIntoView(elem){
+    var $elem = $(elem);
+    var $window = $(window);
+
+    var docViewTop = $window.scrollTop() - 200;
+    var docViewBottom = docViewTop + $window.height()+ 340;
+
+    var elemTop = $elem.offset().top;
+    var elemBottom = elemTop + $elem.height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}                          
+                                    
+                                    
+                                    
+                                    
 $(document).on('click','.note-insert button',function(){ 
 	$('.modal-backdrop.in').css("display","none");
 });
@@ -1266,6 +1388,5 @@ $(document).on('click','.note-link button',function(){
 	$('.modal-backdrop.in').css("display","none");
 });
 </script>
-			
 </body>
 </html>
