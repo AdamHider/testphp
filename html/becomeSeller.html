@@ -59,15 +59,24 @@
  	
 		<style type="text/css">
 		 body, #wrapper{font-family:'Open Sans', sans-serif}
-                 body{
-                     overflow-x: hidden;
+                 
+                 .ester-cell-descr.text-center{
+                     text-align: center;
                  }
+                
                  .information-information.policy-page #wrapper .container:nth-last-of-type(2){
                      background-image: url('//aruna.market/image/catalog/articles/policy_back_new.jpg');
                      background-size: cover;
                      background-position-x: 48.7%;
                  }
-                                 
+                 
+                 .ester-dropdown-descr{
+                     background-color: white;
+                     box-shadow: 1px 1px 3px lightgrey;
+                     margin:0px 3% 2%; 
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                 }
                  
                  .ester-text-policy{
                     margin-left: 34%;
@@ -95,6 +104,11 @@
                      margin-left: 10%;
                  }
                  
+                 .centered-block{
+                     display: inline-block;
+                     margin: 2% 25% 2% 25%;
+                 }
+                 
                  .ester-top-image-title{
                      position: relative;
                      top: -15%;
@@ -118,11 +132,10 @@
                      padding: 1em;
                  }
                  
-                 
                  .ester-scroll-viewed{
                     -moz-transition: opacity 1s;
                     -webkit-transition:  opacity 1s;
-                    transition: transform 1s ease-out, opacity 2s ease-out;
+                    transition: transform 1s ease-out, opacity 2s ease-out, box-shadow 1.5s ease-in-out, width 0.5s ease-in-out;
                     opacity:0;
                         
                  }
@@ -134,23 +147,23 @@
                     transform: translateX(2000px);
                         
                  }
-                 
-                 .slide-top-side{
+                   .slide-top-side{
                      transform: translateY(-1500px);
                  }
                  .slide-bottom-side{
                      transform: translateY(1500px);
                  }
-                 
                  .ester-row{
                      display: block;
                      background-color: white;
                      box-shadow: 1px 1px 3px lightgrey;
                      padding: 20px;
-                     margin-bottom: 3%;
-                     margin-top: 3%;
+                     //margin-bottom: 3%;
+                    // margin-top: 3%;
                  }
-                 
+                 .ester-cell-number i.fa.fa-circle{
+                     display:block;
+                 }
                  .ester-table{
                      display: grid;
                      width: 90%;
@@ -158,7 +171,6 @@
                      margin-left: 5%;
                      padding: 40px;
                      padding-bottom: 40px;
-                     padding-bottom: 0px;
                      font-family: Century Gothic;
                  }
                  .ester-table .ester-cell-number{
@@ -169,6 +181,9 @@
                       font-size: 4vw;
                       margin-bottom: 0px;
                       color: #5aa4ed;
+                 }
+                 .ester-table .ester-cell-button{
+                      width: 15%;
                  }
                  .ester-table .ester-cell-image{
                      width: 20%;
@@ -202,8 +217,8 @@
                      text-align: left;
                  } 
                  .ester-cell-descr p{
-                     margin-bottom: 0px;
-                     font-size: 14px;
+                     margin-bottom: 5px;
+                     font-size: 16px;
                  }
                  
                  .ester-block{
@@ -223,7 +238,18 @@
                  }
                  
                  @media screen and (max-width: 1280px){
+                     
+                .ester-top-image-transparent-block{
+                    height: 56%;
+                    top: 22%;
+                }
                 
+                .ester-top-image-title{
+                    top: -27%;
+                }
+                .ester-top-image-descr{
+                    top: -26%;
+                }
                  .ester-text-policy{
                      position: relative;
                      top: 10%;
@@ -311,10 +337,11 @@
                  .ester-cell-descr p{
                      margin-bottom: 0px;
                      font-size: 14px;
-                     height: inherit;
+                     height: initial;
                      overflow-y: auto;
                      text-align: justify;
                      padding-right: 4%;
+                     text-indent: 2em;
                  }
                  
                  .ester-block{
@@ -355,11 +382,30 @@
                     position: relative;
                     display: inline-block;
                 }
+                .ester-top-image-transparent-block{
+                    height: 60%;
+                    top: 20%;
+                    margin-right: 0%;
+                    margin-left: 0%;
+                }
+                
+                .ester-top-image-title{
+                    top: -37%;
+                }
+                .ester-top-image-descr{
+                    top: -37%;
+                }
                  .ester-cell-descr{
                      padding-right:5px;
                      height: 250px;
                 }
-                 
+                .centered-block{
+                    margin-right: 0px;
+                    margin-left:0px;
+                }
+                .ester-cell-button{
+                    display:inline;
+                }
                  
                 }
                  @media screen and (max-width: 450px){
@@ -368,11 +414,7 @@
                      .ester-text-policy{
                          width:auto;
                          padding-right: 0px;
-                     }
-                     .ester-top-image-transparent-block{
-                         margin-right: 0%;
-                         margin-left: 0%;
-                     }   
+                     } 
                   .ester-top-image-title{
                       font-weight: bold;
                       font-size: 20px;
@@ -405,7 +447,6 @@
  
 
  
-
 
 <link href="http://localhost:888/aruna/public_html/image/catalog/aruna/logos/aruna_favicon.png" rel="icon" />	
  	
@@ -1291,7 +1332,7 @@ $(document).ready(function() {
 
 <script>
 $(document).ready(function(){
-	$('a[href="http://localhost:888/aruna/public_html/index.php?route=information/information&information_id=7"]').each(function() {
+	$('a[href="http://localhost:888/aruna/public_html/index.php?route=information/information&information_id=4"]').each(function() {
 		$(this).parents('.with-sub-menu').addClass('sub-active');
 	});  
 });
@@ -1309,150 +1350,150 @@ $(document).ready(function(){
   <div class="row">
                 <div id="content" class="col-sm-12 item-article">
     
-                            <div class="ester-top-image" style="background-image:url(//aruna.market/image/catalog/articles/delivery.jpg)">
-                                <div class="ester-top-image-transparent-block"></div>
-                                <div class="ester-top-image-title">ДОСТАВКА И ОПЛАТА</div>
-                                <div class="ester-top-image-descr">
-                                    Получайте желаемое не выходя из дома!
-                                </div>
+                            <div class="ester-top-image" style="background-image:url(//aruna.market/image/catalog/articles/BecomeSeller.jpg)">
+                             <div class="ester-top-image-transparent-block"></div>
+                            <div class="ester-top-image-title">НАЧНИТЕ ПРОДАВАТЬ</div>
+                            <div  class="ester-top-image-descr">Открыть свой магазин теперь намного проще! И все это - благодаря новым возможностям, которые наш магазин дарит всем желающим продавать и зарабатывать.
+                            </div> 
                         </div>
+                    
+                        <div class="ester-block centered-block">
+                            <h2 style="border-bottom:1px solid black; padding:10px">ПРОДАВАТЬ НА ARUNA ПРОСТО!</h2>
+                            <p> 
+                                Для того, чтобы открыть свой магазин на ARUNA Вам необходимо сделать всего несколько простых шагов
+                            </p>
+                        </div>
+                        
+                        
+                        
+                        
+                        <table class="ester-table">
+                            <tbody>
+                                
+                            <tr class="ester-row ester-scroll-viewed slide-left-side" style="margin: 0px;">
+                                <td class="ester-cell-number">
+                                        <i class="fa fa-user-circle-o  fa-4" aria-hidden="true" style="font-size: 100px; color:#5aa4ed;text-shadow: 1px 1px 1px lightgrey;"></i>
+                                </td>           
+                                    <td  class="ester-cell-descr">
+                                        <h3><b style="font-size: 16px !important">Регистрация нового клиента</b></h3>
+                                        <span style="font-size: 16px">
+                                            Создайте учетную запись на нашем сайте или авторизуйтесь с помощью страниц в социальных сетях, таких как Вктонтакте, Одноклассники, Facebook, Google и т.п.</span>
+                                    </td>
+                                    <td class="ester-cell-descr text-center" style="display:inline-block; width: 100%;border-top: 1px solid lightgrey;font-size: 16px;">
+                                    <p>Только зарегистрированные пользователи имеют возможность создания собственного магазина на <b>Aruna</b>.
+                                    </p>
+                                    <p>
+                                      При регистрации внимательно заполните все необходимые поля, такие как <i>Имя</i>, <i>Фамилия</i>, <i>Адрес электронной почты</i>, <i>Номер телефона</i>.  
+                                    </p>
+                                    <p>
+                                      Помимо этой возможности у зарегистрированных пользователей есть масса других преимуществ, например:
+                                    </p>
+                                    <ul style="list-style: decimal; list-style-position: inside">
+                                        <li>Приобретение бонусных баллов и скидочных купонов;</li>
+                                        <li>Связь с продавцами и магазинами для уточнения деталей;</li>
+                                        <li>Личный кабинет с гибкими настройками личных данных;</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="ester-block-transparent centered-block " style="margin:0px" >
+                                <td class="ester-cell-number" style="font-size: 12px; color:#5aa4ed;text-shadow: 1px 1px 1px lightgrey; text-align: center; display: inline-block; width:100%">
+                                    <i class="fa fa-circle ester-scroll-viewed slide-left-side " style="margin-bottom:20px"></i>
+                                    <i class="fa fa-circle ester-scroll-viewed slide-left-side  " style="margin-bottom:20px"></i>
+                                    <i class="fa fa-circle ester-scroll-viewed slide-left-side " style="margin-bottom:20px"></i>
+                                    <i class="fa fa-circle ester-scroll-viewed slide-left-side " style="margin-bottom:20px"></i>
+                                </td>  
+                            </tr>
                             
-                            <table class="ester-table ">
-                                
-                                <tr class="ester-row ester-scroll-viewed slide-left-side">
-                                    <td class="ester-cell-number">
-                                        <h1>1.</h1>
-                                    </td>
-                                    <td class="ester-cell-image"> 
-                                        <div class="ester-image-title">
-                                                <h3>НИЗКАЯ ЦЕНА</h3> 
-                                        </div>
-                                        <div class="ester-image" style="background-image: url(http://localhost:888/aruna/public_html/image/catalog/articles/delivery/money.jpg);"></div>
-                                    </td>
-                                    <td class="ester-cell-descr">
-                                        <p> 
-                                            Стоимость доставки <u>любого вида</u> товара на <b>Aruna</b> составляет всего лишь <b>180 рублей</b>.
-                                            В отличии от других сервисов и интернет-магазинов Симферополя, Мы считаем абсолютно неприемлемыми любые другие подходы к установке стоимости доставки, например, такие как
-                                            минимальный заказ и т.п. Наша команда считает, что такие методы ограничивает покупателя, не позволяя использовать полный потенциал доставки. Для нас неважно, будь Ваш заказ
-                                            на 1000 рублей или на 100 рублей. Наши курьеры все-равно доставят Вашу покупку к порогу Вашего дома, потому что для нас важно, чтобы наш покупатель имел возможность получить любой товар не выходя из дома. 
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr class="ester-table-row ester-scroll-viewed slide-right-side" id="to-hide" style="display:inline-block">
-                                    <td>
-                                        <div class="ester-block">                                        
-                                              <p style="font-size: 14px;"> 
-                                                  Уважаемый покупаетель, мы просим запомнить одно очень важное правило, касающееся доставки в интернет-магазинах:
-                                               </p>
-                                                 <h4 > 
-                                                  БЕСПЛАТНАЯ ДОСТАВКА ТОЛЬКО В МЫШЕЛОВКЕ!
-                                                  </h4>
-                                                 <a style="margin:15px" class="btn btn-primary" onclick="$('#to-hide').hide()">Буду иметь в виду</a>
-                                                 <h5 style="color:green; display:none; margin: 2em;">СПАСИБО!</h5>
-                                          </div>  
-                                    </td>
-                                </tr>
-                                
-                                <tr class="ester-row ester-scroll-viewed slide-left-side">
-                                    <td class="ester-cell-number">
-                                        <h1>2.</h1>
-                                    </td>
-                                    <td class="ester-cell-image"> 
-                                        <div class="ester-image-title">
-                                                <h3>УДОБНЫЙ ГРАФИК</h3> 
-                                        </div>
-                                        <div class="ester-image" style="background-image: url(http://localhost:888/aruna/public_html/image/catalog/articles/delivery/schedule.jpg);"></div>
-                                    </td>
-                                    <td class="ester-cell-descr">
-                                        <p> 
-                                             Наша доставка доступна 5 дней в неделю: <b>с понедельника по пятницу</b>. Что касается времени, то есть некоторые условия. Так, например,
-                                            если Ваш заказ был оформлен <b>до 15:00</b>, то он непременно будет доставлен непосредственно Вам в руки в тот же день в период <b>с 16:00 до 20:00</b>.
-                                            Мы считаем этот промежуток времени наиболее подходящим и удобным, поскольку рабочий день как раз подходит к концу, так что нет никаких опасений,
-                                            что курьер прибудет к Вам в тот момент, когда Вы ещё на работе. В случае же, если заказ был оформлен <b>после 15:00</b>, то он также будет доставлен <b>в конце рабочего дня</b>, но
-                                            уже <b>на следующий день</b>. Дело в том, что из-за большого количества заказов требуется значительное время на их подготовку к отправке.
-                                        </p>
-                                    </td>
-                                </tr>
-                                
-                                
-                                <tr class="ester-row ester-scroll-viewed slide-right-side">
-                                    <td class="ester-cell-number">
-                                        <h1>3.</h1>
-                                    </td>
-                                    <td class="ester-cell-image"> 
-                                        <div class="ester-image-title">
-                                                <h3>ЛЮБАЯ ТОЧКА ГОРОДА</h3> 
-                                        </div>
-                                        <div class="ester-image" style="background-image: url(http://localhost:888/aruna/public_html/image/catalog/articles/delivery/map.jpg);"></div>
-                                    </td>
-                                    <td class="ester-cell-descr">
-                                        <p> 
-                                           Курьеры Aruna готовы доставить любой заказ в любую точку города Симферополь. Если покупатель живет в пещере - мы доставим. Если покупатель живет на 95-м этаже небоскреба - мы доставим.  
-                                         </p>
-                                    </td>
-                                </tr>
-                                
-                                <tr class="ester-row ester-scroll-viewed slide-left-side">
-                                    <td class="ester-cell-number">
-                                        <h1>4.</h1>
-                                    </td>
-                                    <td class="ester-cell-image"> 
-                                        <div class="ester-image-title">
-                                                <h3>ЭКОНОМИЯ ВРЕМЕНИ И СИЛ</h3> 
-                                        </div>
-                                        <div class="ester-image" style="background-image: url(http://localhost:888/aruna/public_html/image/catalog/articles/delivery/relax.jpg);"></div>
-                                    </td>
-                                    <td class="ester-cell-descr">
-                                        <p> 
-                                            Современный мир настолько стремительно движется вперед, что порой нам совсем не хватает времени на любимые дела, хобби и увлечения. Но у такого стремительного движения есть, конечно, и свои плюсы.
-                                            Так, например, ещё в конце прошлого века, если у Вас возникло бы желание совершить покупку, Вам непременно было бы необходимо выйти из дома и пойти в ближайший магазин, в надежде на то, что в нём есть именно тот товар,
-                                            который и был Вам необходим. В наше время таких проблем уже не существует. Мы предлагаем Вам сохранить Ваше драгоценное время и поберечь силы для более важных дел, позволив <b>Aruna</b> позаботиться о доставке желаемых товаров. 
-                                        </p>
-                                    </td>
-                                </tr>
-                                
-                                <tr class="ester-row ester-scroll-viewed slide-right-side">
-                                    <td class="ester-cell-number">
-                                        <h1>5.</h1>
-                                    </td>
-                                    <td class="ester-cell-image"> 
-                                        <div class="ester-image-title">
-                                                <h3>СООТВЕТСТВИЕ ТОВАРА</h3> 
-                                        </div>
-                                        <div class="ester-image" style="background-image: url(http://localhost:888/aruna/public_html/image/catalog/articles/delivery/checkbox.jpg);"></div>
-                                    </td>
-                                    <td class="ester-cell-descr">
-                                        <p> 
-                                           Зачастую клиенты невнимательных интернет-магазинов сталкиваются с одной из самых распространенных проблем онлайн-шоппинга - действительный товар при получении отличается от изначально желаемого. 
-                                            Этот фактор, безусловно отталкивает и заставляет многих воздерживаться от покупок в интернете. Решением этой проблемы является Aruna. На нашем сайте Вы можете видеть большое количество фотграфий каждого товара, богатое описание и самые подробные характеристики,
-                                            что позволит Вам выбрать именно тот товар, который отвечает вашим запросом. Возможность ошибки при доставке абсолютно исключена. Мы пользуемся современными технологиями контроля сборки и отгрузки заказов, которые исключают всякую вероятность ошибки. 
-                                        </p>
-                                    </td>
-                                </tr>
-                                
-                                <tr class="ester-row ester-scroll-viewed slide-left-side">
-                                    <td class="ester-cell-number">
-                                        <h1>6.</h1>
-                                    </td>
-                                    <td class="ester-cell-image"> 
-                                        <div class="ester-image-title">
-                                                <h3>ДОВЕРИЕ</h3> 
-                                        </div>
-                                        <div class="ester-image" style="background-image: url(http://localhost:888/aruna/public_html/image/catalog/articles/delivery/trust.jpg);"></div>
-                                    </td>
-                                    <td class="ester-cell-descr">
-                                        <p> 
-                                           Одним из самых важных факторов при работе с клиентами для нас является доверие. Мы не можем позволить себе подвести наших покупателей, а потому оплата производится только при получении товара заказчиком в руки.  
-                                         </p>
-                                    </td>
-                                </tr>
-                                
-                            </table>    
                             
-                        <div class="ester-block-transparent ester-scroll-viewed slide-right-side">
-                            <h3>
-                               С заботой о Вашем комфорте
-                            </h3>
+                            
+                            
+                            <tr class="ester-row ester-scroll-viewed slide-right-side" style="margin: 0px">
+                                <td class="ester-cell-number">
+                                        <i class="fa fa-university  fa-4" aria-hidden="true" style="font-size: 100px; color:#5aa4ed;text-shadow: 1px 1px 1px lightgrey;"></i>
+                                </td>           
+                                    <td class="ester-cell-descr ">
+                                        <h3><b style="font-size: 16px !important">Регистрация собственного магазина</b></h3>
+                                        <span style="font-size: 16px">
+                                             Зарегистрируйте свой магазин и отправьте заявку нашему менеджеру. Затем мы свяжемся с Вами для подтверждения заявки и уточнения деталей.</span>
+                                   </td>
+                                    <td class="ester-cell-descr text-center" style="display:inline-block; width: 100%;border-top: 1px solid lightgrey;font-size: 16px;">
+                                    <p>
+                                        При регистрации Вам будет предложено <b>"Стать продавцом"</b>. Выберите <b>"Да"</b> и введите <b>название</b> Вашего будущего магазина, чтобы отправить заявку для <b>подтверждения</b>.   
+                                    </p>
+                                    <p>
+                                        После подтверждения Вашего магазина нашей администрацией, у Вас появится доступ к <b>панели управления</b>, где вы можете указать более точные данные, такие как <i>Контактные данные</i>, <i>Описание</i> и т.д. 
+                                    </p>
+                                </td>
+                            </tr>
+                             <tr class="ester-block-transparent centered-block" style="margin:0px" >
+                                <td class="ester-cell-number" style="font-size: 12px; color:#5aa4ed;text-shadow: 1px 1px 1px lightgrey; text-align: center; display: inline-block; width:100%">
+                                    <i class="fa fa-circle ester-scroll-viewed slide-left-side " style="margin-bottom:20px"></i>
+                                    <i class="fa fa-circle ester-scroll-viewed slide-left-side  " style="margin-bottom:20px"></i>
+                                    <i class="fa fa-circle ester-scroll-viewed slide-left-side " style="margin-bottom:20px"></i>
+                                    <i class="fa fa-circle ester-scroll-viewed slide-left-side " style="margin-bottom:20px"></i>
+                                </td>  
+                            </tr>
+                            
+                            <tr class="ester-row ester-scroll-viewed slide-left-side" style="margin: 0px">
+                                <td class="ester-cell-number " >
+                                        <i class="fa fa-cloud-upload  fa-4" aria-hidden="true" style="font-size: 100px; color:#5aa4ed;text-shadow: 1px 1px 1px lightgrey;"></i>
+                                </td>           
+                                    <td class="ester-cell-descr">
+                                        <h3><b style="font-size: 16px !important">Загрузка товаров</b></h3>
+                                        <span style="font-size: 16px">
+                                             С помощью инструментов Aruna теперь Вам необходимо загрузить товары в Ваш магазин. Также на этом этапе вы можете создать описание Вашего магазина, загрузить логотип и т.п.</span>
+                                    </td>
+                                    <td class="ester-cell-descr text-center" style="display:inline-block; width: 100%;border-top: 1px solid lightgrey;font-size: 16px;">
+                                    <p>
+                                        При загрузке товаров Вы можете воспользоваться нашей <a href="./index.php?route=extension/aruna/sellerparserlist"><u>системой синхронизации</u></a>.
+                                    </p>
+                                    <p>
+                                        Вам необходимо будет либо <b>выбрать сайт</b>, с которого вы хотите загрузить товары, либо прикрепить <b>прайс-лист в формате <i>Excel</i></b>. 
+                                    </p>
+                                    <p>
+                                        Существует ряд <b>требований</b> к оформлению импортируемого Excel документа, ознакомиться с которыми Вы можете на <a href="./index.php?route=extension/aruna/sellerparserlist"><u>странице синхронизации</u></a>. 
+                                       Настоятельно рекомендуем ознакомиться с этими требованиями и оформить загружаемый прайс-лист надлежащим образом. В противном случае загрузка Ваших товаров в Ваш же магазин будет выполнена <b>неверно</b>.
+                                    </p>
+                                    <p>
+                                        После того, как товары будут загружены, Вам необходимо дождаться <b>модерации и подтверждения</b> Ваших товаров.
+                                    </p>
+                                </td>
+                            </tr>
+                             <tr class="ester-block-transparent centered-block" style="margin:0px" >
+                                <td class="ester-cell-number" style="font-size: 12px; color:#5aa4ed;text-shadow: 1px 1px 1px lightgrey; text-align: center; display: inline-block; width:100%">
+                                   <i class="fa fa-circle ester-scroll-viewed slide-left-side" style="margin-bottom:20px"></i>
+                                    <i class="fa fa-circle ester-scroll-viewed slide-left-side" style="margin-bottom:20px"></i>
+                                    <i class="fa fa-circle ester-scroll-viewed slide-left-side" style="margin-bottom:20px"></i>
+                                    <i class="fa fa-circle ester-scroll-viewed slide-left-side" style="margin-bottom:20px"></i>
+                                </td>  
+                            </tr>
+                            <tr class="ester-row ester-scroll-viewed slide-right-side"  style="margin: 0px">
+                                <td class="ester-cell-number">
+                                        <i class="fa fa-check-circle-o  fa-4" aria-hidden="true" style="font-size: 100px; color:#60c560;text-shadow: 1px 1px 1px lightgrey;"></i>
+                                </td>           
+                                <td class="ester-cell-descr">
+                                    <h3><b style="font-size: 16px !important;">Готово!</b></h3>
+                                    <span style="font-size: 16px;">
+                                        Магазин создан. Вам остается ждать заказов, уведомления о которых придут Вам на E-mail.</span>
+                                </td>
+                                    <td class="ester-cell-descr text-center" style="display:inline-block; width: 100%;border-top: 1px solid lightgrey;font-size: 16px;">
+                                    <p>
+                                        Ваши товары подтверждены! Из панели управления Вы можете управлять <b>заказами и оплатами</b>, знакомится с <b>отзывами</b> Ваших клиентов.
+                                    </p>
+                                    <p>
+                                        При необходимости, вы можете <b>изменить характеристики</b> Ваших товаров в любое удобное время без каких-либо ограничений.
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                        </table>
+                        
+                        <div class="ester-block centered-block ester-scroll-viewed slide-left-side" style="display:block">
+                            <h2 style="border-bottom:1px solid black; padding:10px">Заинтересованы?</h2>
+                            <p>
+                               Создайте свой интернет-магазин на Aruna прямо сейчас!
+                            </p>
+                               <a style="margin:15px" href="index.php?route=account/login" class="btn btn-primary">Зарегистрироваться</a>
                         </div>  
     </div>
     </div>
@@ -1564,7 +1605,7 @@ $(document).ready(function(){
 												<div class="module  ">
    
   
-  																						<div class="">
+  																																	<div class="">
 												<div class="box-information box-footer">
  <div class="module clearfix">
  <h3 class="modtitle">Информация</h3>
@@ -1572,7 +1613,7 @@ $(document).ready(function(){
  <ul class="menu">
  <li><a href="index.php?route=information/information&amp;information_id=4">О нас</a></li>
  <li><a href="index.php?route=information/information&amp;information_id=6">Доставка и оплата<br></a></li>
- <li><a href="index.php?route=information/information&amp;information_id=3">Пользовательское соглашение<br></a></li>
+ <li><a href="index.php?route=information/information&amp;information_id=5">Пользовательское соглашение<br></a></li>
  <li><a href="index.php?route=information/information&amp;information_id=7">Начните продавать</a></li></ul>
  </div>
  </div>
@@ -1580,6 +1621,7 @@ $(document).ready(function(){
 										
 			
 					</div>		 
+											 
 											 
 											 
 </div>
@@ -1640,13 +1682,24 @@ $(document).ready(function(){
 </div>
 
 			<script>
-    
-$(window).scroll(function(){
+                                    
+                                    
+                                    
+ $(window).scroll(function(){
   $('.ester-scroll-viewed.slide-left-side').each(function(){
      // $(this).css('transition', 'opacity 1s ease-in-out');
-    if(isScrolledIntoView($(this))){
-      $(this).css('opacity', '1').css('transform', 'translateX(0%)');
+     if(isScrolledIntoView($(this))){
+                $(this).css('opacity', '1').css('transform', 'translateX(0px)');
+              
+         }
+          if($(this).hasClass('ester-row') || $(this).hasClass('ester-block')){
+                    if(isVerticallyMiddleView($(this))){
+                        $(this).css('box-shadow', '1px 1px 20px gray');
+                     } else{
+                         $(this).css('box-shadow', '1px 1px 3px lightgrey');
+             }
         }
+     
     /*}
     else{
       $(this).css('opacity', '0').css('transform', 'translateX(-120%)');
@@ -1656,49 +1709,48 @@ $(window).scroll(function(){
      // $(this).css('transition', 'opacity 1s ease-in-out');
     if(isScrolledIntoView($(this))){
       $(this).css('opacity', '1').css('transform', 'translateX(0%)');
+       
         }
-    /*}
-    else{
-      $(this).css('opacity', '0').css('transform', 'translateX(-120%)');
-    }*/
-  });
-   $('.ester-scroll-viewed.slide-top-side').each(function(){
-     // $(this).css('transition', 'opacity 1s ease-in-out');
-    if(isScrolledIntoView($(this))){
-      $(this).css('opacity', '1').css('transform', 'translateX(0%)');
+        if($(this).hasClass('ester-row') || $(this).hasClass('ester-block')){
+            if(isVerticallyMiddleView($(this))){
+                $(this).css('box-shadow', '1px 1px 20px gray');
+            } else{
+                 $(this).css('box-shadow', '1px 1px 3px lightgrey');
+           
         }
-    /*}
-    else{
-      $(this).css('opacity', '0').css('transform', 'translateX(-120%)');
-    }*/
-  });
-   $('.ester-scroll-viewed.slide-bottom-side').each(function(){
-     // $(this).css('transition', 'opacity 1s ease-in-out');
-    if(isScrolledIntoView($(this))){
-      $(this).css('opacity', '1').css('transform', 'translateX(0%)');
-        }
+         }
     /*}
     else{
       $(this).css('opacity', '0').css('transform', 'translateX(-120%)');
     }*/
   });
 });
-
 function isScrolledIntoView(elem){
     var $elem = $(elem);
     var $window = $(window);
 
     var docViewTop = $window.scrollTop() - 200;
-    var docViewBottom = docViewTop + $window.height()+ 340;
+    var docViewBottom = docViewTop + $window.height()+ 240;
 
     var elemTop = $elem.offset().top;
     var elemBottom = elemTop + $elem.height();
 
     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-}                          
-                                    
-                                    
-                                    
+}  
+
+function isVerticallyMiddleView(elem){
+    var $elem = $(elem);
+    var $window = $(window);
+
+    var docViewTop = $window.scrollTop() + 150;
+    
+    var docViewBottom = docViewTop + $window.height()-300;
+    var elemTop = $elem.offset().top;
+    var elemBottom = elemTop + $elem.height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}  
+
                                     
 $(document).on('click','.note-insert button',function(){ 
 	$('.modal-backdrop.in').css("display","none");
@@ -1707,5 +1759,6 @@ $(document).on('click','.note-link button',function(){
 	$('.modal-backdrop.in').css("display","none");
 });
 </script>
+			
 </body>
 </html>
